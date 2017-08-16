@@ -1,0 +1,12 @@
+.message{
+  transform: translate(0,5%);
+  height: 100%;
+  width: auto;
+  margin: 0 auto;
+  width:75%;
+  color:#fff;
+}
+
+.message h2 {
+  margin-top:0;
+}

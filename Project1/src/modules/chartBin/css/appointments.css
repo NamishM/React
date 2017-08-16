@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-flow: column;
+  height: calc(100% - 60px);
+}
+
+.sortArea {
+
+}
+
+.infiniteScroller {
+  overflow: auto;
+}

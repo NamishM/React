@@ -1,0 +1,59 @@
+
+.patientTrackingApp {
+  height:inherit;
+}
+
+.ptRow {
+  min-height: 28px;
+  border-bottom: 1px solid;
+  border-color: #bbb;
+  vertical-align: center;
+}
+
+.odd {
+  background-color:white;
+}
+
+.even {
+  background-color:#ccc;
+}
+
+.patientTrackingColumn {
+  min-width:20px;
+  min-height: 28px;
+  line-height: 28px;
+}
+
+.headerTrackingButton {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.headerTaskingButton {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.headerTaskingButtonMiddle {
+  border-radius: 0;
+}
+.headerTrackingButtonSelected {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  border-color: #2c4b5b;
+  background-color: #375f73;
+}
+.headerTaskingButtonSelected {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border-color: #2c4b5b;
+  background-color: #375f73;
+}
+
+.btnRefresh {
+  width: 36px;
+}
+
+.btnRefresh:active {
+  background-color: #487b95;
+  border-color: #406d84;
+}

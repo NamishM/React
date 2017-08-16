@@ -1,0 +1,22 @@
+.selectBox{
+  border-radius: 3px;
+  margin: 1px 0;
+  float: left;
+  color:black;
+}
+
+.statusIndicator {
+  background: green;
+  width: 10px;
+  height: 10px;
+  -moz-border-radius: 5px; 
+  border-radius: 5px; 
+}
+
+@media (min-width: 992px) {
+  .selectBox {
+    width: 80px;
+  }
+}
+
+    

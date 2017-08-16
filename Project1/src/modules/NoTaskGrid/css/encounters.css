@@ -1,0 +1,107 @@
+.header, .header.active, .header:hover, .header:focus {
+  background-color: #c3d3d9 !important;
+} 
+
+.panel {
+  border-right: 1px solid #c3d3d9 !important;
+  border-left: 1px solid #c3d3d9 !important;
+  border-radius: 0;
+}
+
+.heading {
+  background-color: #fff;
+}
+
+.roomHeaderColumn {
+  width:8%;
+  padding: 0;
+}
+
+.patientHeaderColumn {
+  width:22%;
+  padding: 0;
+}
+
+.dobHeaderColumn {
+  width:10%;
+  padding: 0;
+}
+
+.providerHeaderColumn {
+  width:22%;
+  padding: 0;
+}
+
+.dateHeaderColumn {
+  width:13%;
+  padding: 0;
+}
+
+.actionHeaderColumn {
+  width:25%;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+  height: calc(100% - 26px);
+}
+
+.body {
+  height: 480px; 
+  overflow: hidden;
+}
+
+.infiniteScroller {
+  flex: 2 ;
+  overflow-y: auto !important;
+}
+
+.infiniteScroller > div {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+.infiniteScroller > div:before,
+.infiniteScroller > div:after {
+  content: " ";
+  display: table;
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  .roomHeaderColumn {
+    width:8%;
+  }
+
+  .patientHeaderColumn {
+    width:20%;
+  }
+
+  .dobHeaderColumn {
+    width:12%;
+  }
+
+  .providerHeaderColumn {
+    width:20%;
+  }
+
+  .dateHeaderColumn {
+    width:14%;
+  }
+
+  .actionHeaderColumn {
+    width:26%;
+    padding: 0;
+  }
+
+}
+
+@media (max-width: 991px) {
+  .roomHeaderColumn, .patientHeaderColumn, .dobHeaderColumn, .providerHeaderColumn, .dateHeaderColumn, .actionHeaderColumn {
+    width: 33.33%;
+  }
+}

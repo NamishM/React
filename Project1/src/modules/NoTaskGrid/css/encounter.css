@@ -1,0 +1,144 @@
+
+.patientTrackingApp {
+  height:inherit;
+}
+
+.ptRow {
+  min-height: 26px;
+  border-bottom: 1px solid;
+  border-color: #bbb;
+  vertical-align: center;
+}
+
+.odd {
+  background-color:white;
+}
+
+.even {
+  background-color:#ccc;
+}
+
+.roomColumn, .patientColumn, .dobColumn, .providerColumn, .dateColumn, .actionColumn {
+  min-width:20px;
+  min-height: 25px;
+  line-height: 25px;
+}
+
+.roomColumn {
+  width:8%;
+  padding: 0 0 0 3px;
+}
+
+.patientColumn {
+  width:22%;
+  padding: 0 0 0 5px;
+}
+
+.dobColumn {
+  width:10%;
+  padding: 0 0 0 8px;
+}
+
+.providerColumn {
+  width:22%;
+  padding: 0 0 0 9px;
+}
+
+.dateColumn {
+  width:13%;
+  padding: 0 0 0 11px;
+}
+
+.actionColumn {
+  width:25%;
+  padding: 0 0 0 13px;
+}
+
+.headerTrackingButton {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.headerTaskingButton {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.headerTaskingButtonMiddle {
+  border-radius: 0;
+}
+.headerTrackingButtonSelected {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  border-color: #2c4b5b;
+  background-color: #375f73;
+}
+.headerTaskingButtonSelected {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border-color: #2c4b5b;
+  background-color: #375f73;
+}
+
+@media (max-width: 991px) {
+  .roomColumn {
+    padding: 0;
+    width: 50% !important;
+  }
+
+  .patientColumn {
+    padding: 0;
+    width: 50% !important;
+  }
+
+  .dobColumn {
+    padding: 0;
+    width: 50% !important;
+  }
+
+  .providerColumn {
+    padding: 0;
+    width: 50% !important;
+  }
+
+  .dateColumn {
+    padding: 0;
+    width: 50% !important;
+  }
+  
+  .actionColumn {
+    padding: 0;
+    width: 50% !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  .roomColumn {
+    width:8%;
+  }
+
+  .patientColumn {
+    width:20%;
+    padding: 0 0 0 4px;
+  }
+
+  .dobColumn {
+    width:12%;
+    padding: 0 0 0 4px;
+  }
+
+  .providerColumn {
+    width:20%;
+    padding: 0 0 0 3px;
+  }
+
+  .dateColumn {
+    width:14%;
+    padding: 0 0 0 2px;
+  }
+
+  .actionColumn {
+    width:26%;
+    padding: 0;
+  }
+
+}

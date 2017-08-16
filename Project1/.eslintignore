@@ -1,0 +1,19 @@
+# /node_modules and /bower_components ignored by default
+
+# Ignore built files except build/index.js
+src/theme/**/*.*
+**/*.less
+**/*.html
+**/*.htm
+**/*.css
+**/*.scss
+**/*.eot
+**/*.svg
+**/*.ttf
+**/*.woff
+**/*.jpg
+**/*.jpeg
+**/*.png
+**/*.ejs
+**/*.pdf
+**/__snapshots__

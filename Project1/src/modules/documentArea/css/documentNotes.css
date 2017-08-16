@@ -1,0 +1,44 @@
+.container, .documentNotes {
+  height: calc(100% - 40px);
+}
+
+.documentNotes {
+  -webkit-overflow-scrolling: touch;
+  overflow: auto;
+  width:100%;
+  background-color: white;
+}
+
+.notesArea {
+
+}
+
+.sortArea {
+  padding-left: initial;
+}
+
+.note {
+    box-shadow:inset;
+    border-bottom: 1px solid #ccc;
+    overflow-y: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.subject {
+ padding-left: 4px;
+ padding-right: 4px;
+}
+.message {
+  word-wrap: break-word;
+  padding-left: 4px;
+  padding-right: 4px;
+
+}
+
+.sortIndicator {
+  margin-bottom: 5px;
+  padding-left: 0px;
+  padding-right: 4px;
+  text-align: left;
+}

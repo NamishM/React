@@ -1,0 +1,36 @@
+
+.documentTab {
+  height:inherit;
+}
+
+.dtRow {
+  min-height: 40px;
+  border-right: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+  vertical-align: center;
+  width:16.667%;
+  flex-grow: 1;
+}
+
+.odd {
+  background-color:#ececec;
+}
+
+.even {
+  background-color:#fff;
+}
+
+.documentTabColumn {
+  min-width:20px;
+  min-height: 40px;
+  line-height: 40px;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.documentTabHasFiles {
+  min-width:20px;
+  min-height: 40px;
+  line-height: 40px;
+  float:right;
+}

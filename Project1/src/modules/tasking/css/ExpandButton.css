@@ -1,0 +1,22 @@
+.expandButton {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background: inherit;
+  width:100%;
+  min-width:25px;
+  height:25px;
+}
+
+.expandButton:hover, .expandButton:focus, {
+  background: none;
+  box-shadow: none;
+}
+
+.expandButton:focus, {
+  outline: none;
+}
+
+.icon {
+  font-size: 14px;
+}

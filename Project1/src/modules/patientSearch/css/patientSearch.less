@@ -1,0 +1,40 @@
+.search-Form {
+    input {
+        margin-bottom: 4px;
+    }
+
+    button {
+        margin: 3px;
+    }
+}
+
+@media (min-width: 768px) {
+    .leftbar {
+        padding-right: 5px;
+    }
+
+    .rightbar {
+        padding-left: 5px;
+    }
+}
+
+.filter-Panel {
+    padding: 5px;
+}
+
+.patientSearch {
+    display: flex;
+    flex-flow: column;
+    height: inherit;
+}
+
+.hideLoading {
+    display: none;
+}
+
+.resetInputColor {
+    InputElement:-webkit-autofill {
+        -webkit-box-shadow: 0 0 0px 1000px red inset;
+        box-shadow: 0 0 0px 1000px white inset;
+    }
+}

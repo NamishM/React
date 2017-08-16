@@ -1,0 +1,3 @@
+export const IDLE_ACTIVE = 'IDLE_ACTIVE';
+export const IDLE_ACTIVE_SILENT = 'IDLE_ACTIVE_SILENT';
+export const IDLE_INACTIVE = 'IDLE_INACTIVE';

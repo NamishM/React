@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`login -> components -> <Option /> renders an <option tag with the id as the val and name as the textnode 1`] = `
+<option
+  value={1}
+>
+  testName
+</option>
+`;

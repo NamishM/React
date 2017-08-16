@@ -1,0 +1,43 @@
+.noTaskGrid{
+  height: 100%;
+  .appointmentHeader {
+    color: #487b95;
+    margin: 2px 0;
+    &:first-child {
+      left: 2px;
+    }
+  }
+  button.btn {
+    margin-right: 3px;
+    border-color: #999;
+  }
+  .panel {
+    height: 100% !important;
+    text-align: left;
+  }
+  .btn-group {
+    padding-left: 13px;
+  }
+  .hideLoading {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .noTaskGrid {    
+    .btn-group {
+      padding-left: 0;
+    }
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  .noTaskGrid {
+    .appointmentHeader {
+      padding-right: 2px;
+    }
+    .btn-group {
+      padding-left: 0;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.taskButton {
+  width:45px;
+  font-size: 0.8em;
+  margin: 1px 2px;
+}
+
+@media (max-width: 991px) {
+  .taskButton {
+    width: 54px;
+    font-size: 0.9em;
+  }
+}
