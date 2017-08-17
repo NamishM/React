@@ -1,0 +1,62 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "plugins": ["babel", "redux-saga"],
+    "extends": ["airbnb", "plugin:redux-saga/recommended"],
+    "rules": {
+        "linebreak-style": ["error", "windows"],
+        "no-underscore-dangle": 0,
+        "global-require": "off",
+        "comma-dangle": ["error", {
+            "arrays": "always-multiline",
+            "objects": "always-multiline",
+            "imports": "always-multiline",
+            "exports": "always-multiline",
+            "functions": "always-multiline"
+        }],
+        "jsx-a11y/href-no-hash": "off",
+        "jsx-a11y/anchor-is-valid": ["warn", { "aspects": ["invalidHref"] }],
+        "import/first": ["error", {"absolute-first": false}],
+        "import/no-extraneous-dependencies": [
+            "error",
+            {
+                "devDependencies": ["**/*.spec.js"],
+                "peerDependencies": false,
+                "optionalDependencies": false
+            }
+        ],
+        "no-restricted-syntax": [
+            "error",
+            {
+                "selector": "ForInStatement",
+                "message": "for..in loops iterate over the entire prototype chain, which is virtually never what you want. Use Object.{keys,values,entries}, and iterate over the resulting array."
+            },
+            {
+                "selector": "LabeledStatement",
+                "message": "Labels are a form of GOTO; using them makes code confusing and hard to maintain and understand."
+            },
+            {
+                "selector": "WithStatement",
+                "message": "`with` is disallowed in strict mode because it makes code impossible to predict and optimize."
+            }
+        ]
+    },
+    "settings": {
+        "import/resolver":{
+            "webpack": {
+                "config": "webpack.config.js"
+            }
+        }
+    },
+    "overrides": [
+        {
+            "files": ["**/*.spec.js"],
+            "rules": {
+                "redux-saga/yield-effects": 0
+            }
+        }
+    ]
+}

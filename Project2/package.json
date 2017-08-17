@@ -1,0 +1,44 @@
+{
+  "name": "namishmudgal",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://namishmudgal.info",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-headroom": "^2.1.6",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
+    "react-scripts": "1.0.10",
+    "redux": "^3.7.2",
+    "redux-saga": "^0.15.6"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.1",
+    "copyfiles": "^1.2.0",
+    "cross-env": "^5.0.5",
+    "eslint": "^4.4.1",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-config-react-app": "^2.0.0",
+    "eslint-import-resolver-webpack": "^0.8.3",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.2.1",
+    "eslint-plugin-redux-saga": "^0.4.0",
+    "webpack": "^3.5.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy:static": "copyfiles -u 2 \"./build/static/**/*.*\" ../static/",
+    "deploy:index": "",
+    "deploy:root": "copyfiles -u 1 \"./build/*.js*\" \"./build/*.ico\" ../",
+    "deploy": "npm run deploy:static && npm run deploy:root && npm run deploy:index",
+    "lint": "cross-env NODE_ENV=development eslint --ext .js,.jsx src/**",
+    "lint:fix": "npm run lint -- --fix"
+  }
+}

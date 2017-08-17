@@ -1,0 +1,190 @@
+html, body, form
+{
+    background-color:#2d2d2d;
+}
+
+a
+{
+    word-break:break-all;
+}
+
+.results
+{
+    
+    padding:5px;
+    position:relative;
+    margin: 0 auto;
+    color:#CECFCE; 
+}
+
+
+h1
+{
+    font-size:2em;
+    font-weight:bold;
+    border-bottom:2px solid #bbb
+}
+        
+h2
+{
+    font-size:1.8em;
+    font-weight:bold;
+    margin-left:15px;
+}
+
+h2 + div
+{
+    margin-left:25px;
+}
+
+h3
+{
+    font-size:1.5em;
+    margin-left:25px;
+    font-weight:bold;
+}
+
+h3 + div, table, h4, .objectDefinition
+{
+    margin-left:50px;
+    margin-right:50px;
+}
+
+table
+{
+    
+    border-spacing: 0;
+    border-collapse: separate;
+}
+
+td, th
+{
+    padding:2px;
+    border-bottom: 1px solid #4f4f4f;
+    text-align:left;
+}
+
+a, a:visited, a:active, a:hover, a:focus {
+  color: #61dafb;
+}
+
+
+a:hover, a:focus {
+  text-decoration: underline;
+}
+
+a, a:visited, a:active {
+  text-decoration: none;
+}
+
+thead
+{
+    color:#61dafb;
+    font-weight:bold;
+    border:none;
+}
+
+.headroom {
+  background-color: #222;
+  color:#61dafb;
+}
+
+
+@media only screen and (max-width: 400px) {
+
+  html, body, form, .results, h2, h2 + div, h3, h3 + div, table
+    {
+        margin:0px;
+    }
+    
+    html, body, form
+    {
+        padding:0px;
+    }
+    
+    div, td
+    {
+        word-break:break-all;
+    }
+}
+
+
+/*FROM - http://elvery.net/demo/responsive-tables/ */
+  @media only screen and (max-width: 800px) {
+
+  
+  /* Force table to not be like tables anymore */
+  table, 
+  thead, 
+  tbody, 
+  th, 
+  td, 
+  tr { 
+    display: block; 
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr { 
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+
+  td { 
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #4f4f4f; 
+    position: relative;
+    padding-left: 50%; 
+    white-space: normal;
+    text-align:left;
+  }
+
+  td:before { 
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%; 
+    padding-right: 10px; 
+    white-space: nowrap;
+    text-align:left;
+    font-weight: bold;
+  }
+
+  /*
+  Label the data
+  */
+  td:before { content: attr(data-title); }
+}
+
+@media only print and (max-width: 800px) {
+  a
+  {
+      text-decoration:none;
+      color:#000;
+  }
+  
+  html, body, form
+  {
+      background-color:#fff;
+  }
+}
+
+/* Portrait */
+@media print and (orientation:portrait) {
+    #index
+    {
+        height:875px; 
+    }
+}
+
+/* Landscape */
+@media print and (orientation:landscape) {
+      #index
+    {
+        height:660px; 
+    }
+}
