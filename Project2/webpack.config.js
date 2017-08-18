@@ -1,3 +1,4 @@
+var path = require('path');
 module.exports = {
     entry: {
          main: [
@@ -25,26 +26,34 @@ module.exports = {
                 loader: 'eslint-loader',
             },
             {
-            // Only run `.js` and `.jsx` files through Babel
-            test: /\.(js|jsx)?$/,
-            exclude: /node_modules/,
-            use: [
-                {
-                loader: 'babel-loader',
-                query: {
-                    cacheDirectory: true,
-                    presets:['react'],
-                },
-                },
-            ],
+                test: /\.(js|jsx)?$/,
+                exclude: /node_modules/,
+                use: [
+                    {
+                    loader: 'babel-loader',
+                    query: {
+                        cacheDirectory: true,
+                        presets:['react'],
+                    },
+                    },
+                ],
+            },
+            {
+                test: /\.(jpe?g|png|gif|svg|mp4|ogg|svg|eot|ttf|woff|woff2)$/i,
+                loaders: [
+                    'file-loader'
+                ]
             }
         ]
     },
     resolve: {
+      alias: {
+        src: path.resolve(__dirname, 'src'),
+      },  
       modules: [
         'src',
         'node_modules',
       ],
-      extensions: ['.json', '.js', '.jsx']
+      extensions: ['.json', '.js', '.jsx', '.css']
     }
 };

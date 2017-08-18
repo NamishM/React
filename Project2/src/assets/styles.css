@@ -72,7 +72,7 @@ body {
 }
 
 #theme_select {
-    background: url("/assets/images/dropdown.png") no-repeat scroll 0 0 transparent;
+    background: url("dropdown.png") no-repeat scroll 0 0 transparent;
     color: #555;
     display: block;
     font-size: 12px;
@@ -146,7 +146,7 @@ color:#333;
 
 
 .preview_picture {
-    background: url("/assets/images/loading.gif") no-repeat scroll center center #F8F8F8;
+    background: url("loading.gif") no-repeat scroll center center #F8F8F8;
     border: 1px solid #E1E1E1;
     display: none;
     height: 300px;
@@ -167,12 +167,12 @@ width:100%;
 .center li.purchase {
 float:right;
 padding-right:15px;
-background: url("/assets/images/line.png") no-repeat scroll right center transparent;
+background: url("line.png") no-repeat scroll right center transparent;
 
 }
 
 li.purchase a {
-    background: url("/assets/images/trolley.png") no-repeat scroll  center center transparent;
+    background: url("trolley.png") no-repeat scroll  center center transparent;
     display: block;
     height:59px;
     text-indent: -9999px;
@@ -186,7 +186,7 @@ margin-left:15px;
 
 li.remove_frame a {
 
-    background: url("/assets/images/cross.png") no-repeat scroll center center transparent;
+    background: url("cross.png") no-repeat scroll center center transparent;
     display: block;
     height:59px;
     text-indent: -9999px;

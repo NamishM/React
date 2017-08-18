@@ -2,7 +2,7 @@ import React from 'react';
 
 const MainView = () => (
   <div>
-    My Portal
+    <iframe id="iframe" src="./assets/saved_resource.html" title="iframe" height="709px" />
   </div>
 );
 
