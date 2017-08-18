@@ -8,6 +8,7 @@
     "extends": ["airbnb", "plugin:redux-saga/recommended"],
     "rules": {
         "linebreak-style": ["error", "windows"],
+        "react/require-default-props": 0,
         "no-underscore-dangle": 0,
         "global-require": "off",
         "comma-dangle": ["error", {

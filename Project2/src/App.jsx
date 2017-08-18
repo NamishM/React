@@ -1,18 +1,20 @@
 import React from 'react';
 import {
   BrowserRouter as Router,
+  Route,
 } from 'react-router-dom';
 import './App.css';
-import NavBar from 'components/NavBar';
-import MainView from 'components/MainView';
+import MainView from 'modules/common/components/MainView';
+
+const ErrorPage = () => (
+  <h1>400.. Bad Error!</h1>
+);
 
 const App = () => (
-  <Router basename="/">
+  <Router>
     <div>
-      <NavBar />
-      <div className="results">
-        <MainView />
-      </div>
+      <Route exact path={'/'} component={MainView} />
+      <Route path={'/error'} component={ErrorPage} />
     </div>
   </Router>
 );
