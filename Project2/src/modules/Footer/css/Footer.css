@@ -1,59 +1,60 @@
-.main_header{box-shadow:0px 0px 3px rgba(0, 0, 0, 0.2);}
-
-.main_menu {
-	  clear: none;
-    position: absolute;
-    z-index: 100;
-    line-height: 30px;
-    height: 100%;
-    margin: 0px;
-    right: 0px;
+.footer {
+	  font-size: 11px;
+    margin-top: -1px;
+    z-index: 1;
 }
-.nav_wrap {
+.footer .container {
+		padding: 15px 20px;
+}
+.copyright {
 	  float: left;
-    position: relative;
-    z-index: 3;
+		color: #fff;
 }
-ul.main_nav {
-	  margin: 0;
+.footer ul.social_bookmarks {
+		float: right;
+    margin: -10px 0 0 30px;
+    position: relative;
+}
+
+.social_bookmarks li {
+    border-radius: 300px;
+    border: none;
+    overflow: hidden;
+    top: 5px;
+    position: relative;
+		height: 100%;
+    float: left;
     padding: 0;
-}
-
-li.menu_item {
-	  line-height: 30px;
-		float: left;
-    position: relative;
-    z-index: 20;
-}
-
-li.menu_item:hover {
-		z-index: 100;
-}
-
-li.menu_item:hover a{
-		color: #ffffff;
-		background-color: #36a3c3;
-		font-weight: 600;
-		transition: background-color 500ms linear;
-}
-
-li.menu_item a {
-		height: 50px;
-    line-height: 50px;
-	  border-left-style: solid;
-    border-left-width: 1px;
-		background-color: none;
-    text-align: center;
-    min-width: 90px;
-		padding: 0 13px;
-		color: #4d4d4d;
+		-webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 		display: block;
-    text-decoration: none;
-		font-size: 13px;
-		border-color: #2b2b2b;		
+    width: 30px;
 }
 
-li.menu_item.active a { 
-	  color: #ffffff;
-		font-weight: 600;
+.social_bookmarks li a {
+    float: left;
+    width: 30px;
+    line-height: 30px;
+    display: block;
+    margin: 0px;
+    outline: none;
+    padding: 0;
+    min-height: 30px;
+    height: 100%;
+    overflow: visible;
+    z-index: 2;
+    position: relative;
+    text-align: center;
+		color: #8c8c8c;
+}
+.social_bookmarks li a:before {
+    font-family: 'entypo-fontello';
+		-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: normal;
+    content: attr(data-av_icon);
+    speak: none;
+}
+.hidden_link_text {
+    display: none;
 }
