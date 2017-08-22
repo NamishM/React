@@ -10,7 +10,7 @@ const Header = () => (
     style={{
       height: '50px',
       padding: '0 20px',
-      background: '#2b2b2b',
+      background: '#080808',
     }}
   >
     <Logo

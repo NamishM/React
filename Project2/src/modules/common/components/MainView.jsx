@@ -5,7 +5,7 @@ import Footer from 'modules/Footer/components/Footer';
 const MainView = () => (
   <div>
     <Header />
-    <iframe id="iframe" src="./assets/saved_resource.html" title="iframe" height="709px" />
+    <iframe id="iframe" src="./assets/saved_resource.html" title="iframe" height="509px" />
     <Footer />
   </div>
 );

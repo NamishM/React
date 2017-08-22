@@ -10,6 +10,9 @@
 	  float: left;
 		color: #fff;
 }
+.copyright a {
+  color: #fff;
+}
 .footer ul.social_bookmarks {
 		float: right;
     margin: -10px 0 0 30px;
@@ -40,21 +43,42 @@
     outline: none;
     padding: 0;
     min-height: 30px;
-    height: 100%;
+    height: 30px;
     overflow: visible;
     z-index: 2;
     position: relative;
     text-align: center;
-		color: #8c8c8c;
+    color: #8c8c8c;
+    border-radius: 300px;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
 }
 .social_bookmarks li a:before {
-    font-family: 'entypo-fontello';
+    font-family: 'namfame-font';
+}
+[data-icon]:before {
 		-webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-weight: normal;
-    content: attr(data-av_icon);
+    content: attr(data-icon);
     speak: none;
 }
 .hidden_link_text {
     display: none;
+}
+.twitter:hover a {
+  color: #fff;
+  background-color: #46d4fe;
+  text-decoration: none;
+}
+.facebook:hover a {
+  color: #fff;
+  background-color: #37589b;
+  text-decoration: none;
+}
+.dribbble:hover a {
+  color: #fff;
+  background-color: #e44885;
+  text-decoration: none;
 }
