@@ -46,11 +46,11 @@ li.menu_item a {
     text-align: center;
     min-width: 90px;
 		padding: 0 13px;
-		color: #4d4d4d;
+		color: #abacb8;
 		display: block;
     text-decoration: none;
 		font-size: 13px;
-		border-color: #2b2b2b;		
+		border-color: #3b3737;		
 }
 
 li.menu_item.active a { 

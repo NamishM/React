@@ -1,11 +1,12 @@
 import React from 'react';
 import Header from 'modules/Header/components/Header';
+import Content from 'modules/Content/components/Content';
 import Footer from 'modules/Footer/components/Footer';
 
 const MainView = () => (
   <div>
     <Header />
-    <iframe id="iframe" src="./assets/saved_resource.html" title="iframe" height="509px" />
+    <Content />
     <Footer />
   </div>
 );
