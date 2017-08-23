@@ -26,6 +26,20 @@ module.exports = {
                 ]
             },
             {
+                test: /\.less$/,
+                use: [{
+                    loader: "style-loader"
+                }, {
+                    loader: "css-loader"
+                }, {
+                    loader: "less-loader", options: {
+                        paths: [
+                            path.resolve(__dirname, "node_modules")
+                        ]
+                    }
+                }]
+            },
+            {
                 test: /\.(js|jsx)$/,
                 enforce: 'pre',
                 loader: 'eslint-loader',

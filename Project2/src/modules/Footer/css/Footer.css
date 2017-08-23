@@ -1,7 +1,12 @@
 .footer {
 	  font-size: 11px;
     margin-top: -5px;
+    clear: both;
+    position: relative;
     z-index: 1;
+    border-top-style: solid;
+    border-top-width: 1px;
+    display: block;
 }
 .footer .container {
 		padding: 15px 20px;

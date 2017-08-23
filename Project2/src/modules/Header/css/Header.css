@@ -1,4 +1,9 @@
-.main_header{box-shadow:0px 0px 3px rgba(0, 0, 0, 0.2);}
+.main_header{
+	box-shadow:0px 0px 3px rgba(0, 0, 0, 0.2);
+	position: fixed;
+  z-index: 501;
+  width: 100%;
+}
 
 .main_menu {
 	  clear: none;

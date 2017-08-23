@@ -2,7 +2,11 @@ import React from 'react';
 import { Parallax } from 'react-parallax';
 
 const Introduction = () => (
-  <Parallax bgImage="../../../assets/images/hero-image-grey-1500x1500.jpg" strength={400}>
+  <Parallax
+    bgImage="../../../assets/images/hero-image-grey-1500x1500.jpg"
+    strength={400}
+    bgStyle={{ backgroundSize: '100px' }}
+  >
     <div className="container caption_container">
       <div className="caption">
         <div className="inner_caption">
@@ -18,7 +22,9 @@ const Introduction = () => (
           </div>
         </div>
       </div>
-      <a href="/#next-section" className="scroll-down-link" aria-hidden="true" data-av_icon="" data-iconfont="entypo-fontello" target="_blank">scroll</a>
+      {/* eslint-disable */}
+      <a href="/#next-section" className="scroll-down-link" aria-hidden="true" data-scroll_icon="" data-iconfont="namfame-font" />
+      {/* eslint-enable */}
     </div>
   </Parallax>
 );
