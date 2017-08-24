@@ -1,7 +1,7 @@
 import React from 'react';
 
 const CartViewUI = () => (
-  <div>Cart</div>
+  <div className="cart-viewer">Cart</div>
 );
 
 export default CartViewUI;
