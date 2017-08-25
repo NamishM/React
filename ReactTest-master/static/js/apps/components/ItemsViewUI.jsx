@@ -4,9 +4,6 @@ import ItemUI from '../components/ItemUI';
 class ItemsViewUI extends Component {
 	constructor(props) {
 		super(props);
-		this.state = {
-		 	added: false
-		};
 	}
 	render() {
     	const {
@@ -29,6 +26,7 @@ class ItemsViewUI extends Component {
                   <ItemUI
                     key={index}
                     item={item}
+                    view={'ItemView'}
                     onSetItemAdded={onSetItemAdded}
                   />
                 );

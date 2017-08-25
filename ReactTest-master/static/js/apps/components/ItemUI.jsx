@@ -10,8 +10,10 @@ class ItemUI extends Component {
 	render() {
     	const {
       		item,
-            onSetItemAdded
-    	} = this.props;
+            onSetItemAdded,
+            onRemoveItem,
+            view
+        } = this.props; 
         return (
             <div id={item.id} className="item-container">
                 <div className="item-color-box">
@@ -27,19 +29,26 @@ class ItemUI extends Component {
                     <div className="btn-container">
                         <button 
                             disabled={this.state.isAdded}
-                            type="button" 
+                            type="button"
                             className={this.state.isAdded ? 'btn-cart added' : 'btn-cart'}
                             onClick={() => {
+                                view === 'CartView' ? onRemoveItem({id: item.id}) :
                                 onSetItemAdded({
+                                    id: item.id,
                                     itemName: item.name,
                                     itemCurrency: item.currency,
                                     itemImageURL: item.imageURL,
-                                    itemPrice: item.price
+                                    itemPrice: item.price,
+                                    addedToCart: true
                                 });
                                 this.setState({ isAdded: !this.state.isAdded });
                             }}
                         >
-                            {this.state.isAdded ? 'Added to cart' : 'Add to cart'}
+                        {
+                            view === 'ItemView' ?
+                            this.state.isAdded ? 'Added to cart' : 'Add to cart'
+                            : 'Remove from Cart'
+                        }
                         </button>
                     </div>
                 </div>  
