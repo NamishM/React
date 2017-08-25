@@ -2,7 +2,9 @@ import * as types from '../constants/ActionTypes';
 
 const initialState = {
   errorMessage: '',
-  results: []
+  results: [],
+	itemAdded: [],
+	totalSum: 0
 };
 
 export default (state = initialState, action) => {
@@ -14,9 +16,15 @@ export default (state = initialState, action) => {
 			};				
 			case types.ITEMS_LOAD_FAILED:
 			return {
-						...initialState,
-						errorMessage: action.errorMessage
-				}
+					...initialState,
+					errorMessage: action.errorMessage
+			};
+			case types.SET_ITEM_ADDED:
+			return {
+					...state,
+					itemAdded: [action.itemAdded],
+					totalSum: action.itemAdded.itemPrice
+			};	
 			default:
 				return state;	
     }

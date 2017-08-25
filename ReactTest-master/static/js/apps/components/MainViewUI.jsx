@@ -2,12 +2,15 @@ import React from 'react';
 import CartViewUI from '../components/CartViewUI';
 import ItemsViewUI from '../components/ItemsViewUI';
 
-const MainViewUI = ({ itemList, onItemAdded }) => (
+const MainViewUI = ({ itemList, onSetItemAdded, itemsAdded, totalSum }) => (
 	<div>
-		<CartViewUI />
+		<CartViewUI
+			itemsAdded={itemsAdded}
+			totalSum={totalSum}
+		/>
 		<ItemsViewUI 
 			itemList={itemList}
-			onItemAdded ={onItemAdded}
+			onSetItemAdded={onSetItemAdded}
 		/>
 	</div>	
 );

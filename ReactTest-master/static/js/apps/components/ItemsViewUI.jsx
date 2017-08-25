@@ -11,7 +11,7 @@ class ItemsViewUI extends Component {
 	render() {
     	const {
       		itemList,
-          onItemAdded
+          onSetItemAdded
     	} = this.props;
     return (
       <div className="item-viewer">
@@ -29,7 +29,7 @@ class ItemsViewUI extends Component {
                   <ItemUI
                     key={index}
                     item={item}
-                    onItemAdded={onItemAdded}
+                    onSetItemAdded={onSetItemAdded}
                   />
                 );
               })

@@ -10,6 +10,17 @@ export const itemsLoadFailed = message => ({
   message
 });
 
-export const itemAdded = () => ({
-  type: types.ITEM_ADDED
+export const setItemAdded = ({
+  itemName,
+  itemCurrency,
+  itemImageURL,
+  itemPrice
+}) => ({
+  type: types.SET_ITEM_ADDED,
+  itemAdded: {
+    itemName,
+    itemCurrency,
+    itemImageURL,
+    itemPrice
+  }
 });
