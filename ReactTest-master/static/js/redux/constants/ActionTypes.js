@@ -1,3 +1,3 @@
-export const GET_ITEMS_LIST = 'GET_ITEMS_LIST';
 export const ITEMS_LOAD_SUCCESS = 'ITEMS_LOAD_SUCCESS';
 export const ITEMS_LOAD_FAILED = 'ITEMS_LOAD_FAILED';
+export const ITEM_ADDED = 'ITEM_ADDED';

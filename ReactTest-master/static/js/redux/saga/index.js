@@ -7,7 +7,6 @@ import * as actions from '../actions/ItemsAction';
 export function* getCartItems() {
 	try {	
 		const options = yield call(getItems);
-		console.log(options);
 		yield put(actions.itemsLoadSuccess(options));
 	} catch (e) {
 		yield put(actions.itemsLoadFailed(e.message));

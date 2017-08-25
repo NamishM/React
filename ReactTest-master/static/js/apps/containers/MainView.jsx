@@ -1,17 +1,17 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import {
-  getItemsList,
+  itemAdded,
 }
   from '../../redux/actions/ItemsAction';
 import MainViewUI from '../components/MainViewUI';
 
 const mapStateToProps = (state) => ({
-  itemList: state,
+  itemList: state.results,
 });
 
 const mapDispatchToProps = dispatch => ({
-  onGetItemsList: () => dispatch(getItemsList())
+  onItemAdded: () => dispatch(itemAdded())
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(MainViewUI);

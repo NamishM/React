@@ -1,12 +1,13 @@
 import React from 'react';
 import CartViewUI from '../components/CartViewUI';
-import ItemViewUI from '../components/ItemViewUI';
+import ItemsViewUI from '../components/ItemsViewUI';
 
-const MainViewUI = ({ itemList }) => (
+const MainViewUI = ({ itemList, onItemAdded }) => (
 	<div>
 		<CartViewUI />
-		<ItemViewUI 
+		<ItemsViewUI 
 			itemList={itemList}
+			onItemAdded ={onItemAdded}
 		/>
 	</div>	
 );
