@@ -12,15 +12,17 @@
     width: auto;
     border-radius: 5px;
     color: #fff;
+    text-transform: uppercase;
 }
 
 .item-total {
     padding: 10px;
     background: #58af2a;
-    width: 83px;
+    width: 100px;
     border-radius: 5px;
     color: #fff;
     display: block;
+    text-transform: uppercase;
 }
 
 .cart-item-container {
