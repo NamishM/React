@@ -55,6 +55,29 @@
     padding: 30px;
 }
 
+.item-viewer .item-container {
+    position: relative;
+    -webkit-transition: all 150ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 150ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 150ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 150ms ease-in;
+    transform: scale(1);   
+
+}
+.item-viewer .item-container:hover {
+    -webkit-transition: all 150ms ease-in;
+    -webkit-transform: scale(1.2);
+    -ms-transition: all 150ms ease-in;
+    -ms-transform: scale(1.2);   
+    -moz-transition: all 150ms ease-in;
+    -moz-transform: scale(1.2);
+    transition: all 150ms ease-in;
+    transform: scale(1.2);
+}
+
 .item-color-box {
     height: 150px;
     width: 150px;
