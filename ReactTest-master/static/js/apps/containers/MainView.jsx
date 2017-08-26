@@ -6,38 +6,29 @@ import {
 }
   from '../../redux/actions/ItemsAction';
 import {
-    setCartStatus
+    //setCartStatusFalse,
+    //setCartStatusTrue,
+    getCartProducts,
+    getTotalAmount
 }
   from '../../redux/reducer';
 import MainViewUI from '../components/MainViewUI';
 
 const mapStateToProps = (state) => ({
-  itemList: setCartStatus(state),
-  itemsAdded: state.cartItemList,
-  totalSum: state.totalSum
+  //itemList: setCartStatusFalse(state),
+  //itemsAdded: setCartStatusTrue(getCartProducts(state)),
+  itemList: state.results,
+  itemsAdded: getCartProducts(state),
+  totalSum: getTotalAmount(state)
 });
 
 const mapDispatchToProps = dispatch => ({
   onSetItemAdded: ({
-    id,
-    itemName,
-    itemCurrency,
-    itemImageURL,
-    itemPrice,
-    addedToCart
-  }) => dispatch(setItemAdded({
-    id,
-    itemName,
-    itemCurrency,
-    itemImageURL,
-    itemPrice,
-    addedToCart
-  })),
+    id
+  }) => dispatch(setItemAdded(id)),
   onRemoveItem : ({
     id
-  }) => dispatch(removeItem({
-    id
-  }))
+  }) => dispatch(removeItem(id))
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(MainViewUI);

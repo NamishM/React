@@ -6,12 +6,25 @@
     min-height: 50px;
 }
 
-.item-total {
+.item-total-zero {
     padding: 10px;
     background: #58af2a;
     width: auto;
     border-radius: 5px;
     color: #fff;
+}
+
+.item-total {
+    padding: 10px;
+    background: #58af2a;
+    width: 83px;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+}
+
+.cart-item-container {
+    text-align: center;
 }
 
 .item-viewer {

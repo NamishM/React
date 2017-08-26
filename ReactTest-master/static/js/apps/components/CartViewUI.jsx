@@ -5,10 +5,9 @@ class CartViewUI extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-		 	added: false
 		};
-	}
-	render() {
+  }
+  render() {
     const {
       itemsAdded,
       totalSum,
@@ -16,21 +15,23 @@ class CartViewUI extends Component {
     } = this.props;
     return (
       <div className="cart-viewer">
-        <span className="item-total">Total: ${totalSum}</span>
-        {
-          itemsAdded.length ?
-          itemsAdded.map((item, index) => {
-            return (
-              <ItemUI
-                key={index}
-                item={item}
-                view={'CartView'}
-                onRemoveItem={onRemoveItem}
-              />
-            );
-          })
-          : null
-        }
+        <span className={itemsAdded.length > 0 ? 'item-total' : 'item-total-zero'}>Total: ${totalSum}</span>
+        <div className="cart-item-container">
+          {
+            itemsAdded.length ?
+            itemsAdded.map((item, index) => {
+              return (
+                <ItemUI
+                  key={index}
+                  item={item}
+                  view={'CartView'}
+                  onRemoveItem={onRemoveItem}
+                />
+              );
+            })
+            : null
+          }
+        </div>
       </div>
     );
   }

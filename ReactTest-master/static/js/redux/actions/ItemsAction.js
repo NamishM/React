@@ -10,28 +10,12 @@ export const itemsLoadFailed = message => ({
   message
 });
 
-export const setItemAdded = ({
-  id,
-  itemName,
-  itemCurrency,
-  itemImageURL,
-  itemPrice,
-  addedToCart
-}) => ({
+export const setItemAdded = (itemId) => ({
   type: types.SET_ITEM_ADDED,
-  itemAdded: {
-    id,
-    name: itemName,
-    currency: itemCurrency,
-    imageURL: itemImageURL,
-    price: itemPrice,
-    addedToCart
-  }
+  itemId
 });
 
-export const removeItem = ({
-  id
-}) => ({
+export const removeItem = (itemId) => ({
   type: types.ITEM_REMOVED,
-  id
+  itemId
 })

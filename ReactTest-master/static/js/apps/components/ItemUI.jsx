@@ -3,10 +3,13 @@ import React, { Component } from 'react';
 class ItemUI extends Component {
 	constructor(props) {
 		super(props);
-		this.state = {
+		/*this.state = {
 		 	isAdded: false
-		};
-	}
+		};*/
+    }
+    /*componentWillMount() {
+        this.setState({ isAdded: this.props.item.addedToCart });
+    }*/
 	render() {
     	const {
       		item,
@@ -28,27 +31,28 @@ class ItemUI extends Component {
                     </div>
                     <div className="btn-container">
                         <button 
-                            disabled={this.state.isAdded}
+                            //disabled={view === 'ItemView' ? this.state.isAdded : null}
                             type="button"
-                            className={this.state.isAdded ? 'btn-cart added' : 'btn-cart'}
+                            //className={view === 'ItemView' ? this.state.isAdded ? 'btn-cart added' : 'btn-cart' : 'btn-cart'}
+                            className='btn-cart'
                             onClick={() => {
                                 view === 'CartView' ? onRemoveItem({id: item.id}) :
                                 onSetItemAdded({
-                                    id: item.id,
-                                    itemName: item.name,
-                                    itemCurrency: item.currency,
-                                    itemImageURL: item.imageURL,
-                                    itemPrice: item.price,
-                                    addedToCart: true
+                                    id: item.id
                                 });
-                                this.setState({ isAdded: !this.state.isAdded });
+                                //this.setState({ isAdded: !this.state.isAdded });
                             }}
                         >
-                        {
-                            view === 'ItemView' ?
-                            this.state.isAdded ? 'Added to cart' : 'Add to cart'
-                            : 'Remove from Cart'
-                        }
+                            {/*
+                                view === 'ItemView' ?
+                                this.state.isAdded ? 'Added to cart' : 'Add to cart'
+                                : 'Remove from Cart'*/
+                            }
+                            {
+                                view === 'ItemView' ?
+                                'Add to cart'
+                                : 'Remove from Cart'
+                            }
                         </button>
                     </div>
                 </div>  
