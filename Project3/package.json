@@ -1,7 +1,7 @@
 {
-  "name": "adessa-frontend-test",
+  "name": "namish-frontend-work",
   "version": "1.0.0",
-  "description": "frontend test for adessa",
+  "description": "react showcase work by namish",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aether7/adessa-frontend-test.git"
+    "url": "git+https://github.com/"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aether7/adessa-frontend-test/issues"
+    "url": "https://github.com/"
   },
-  "homepage": "https://github.com/aether7/adessa-frontend-test#readme",
+  "homepage": "https://github.com/",
   "dependencies": {
     "consolidate": "^0.14.5",
     "express": "^4.14.0",
