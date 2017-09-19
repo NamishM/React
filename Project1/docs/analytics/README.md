@@ -1,1 +1,0 @@
-- [Instrumenting Your App for Telemetry and Analytics](https://blogs.windows.com/buildingapps/2014/03/20/instrumenting-your-app-for-telemetry-and-analytics/#tZm4Ew6b5FvIFwYM.97)
