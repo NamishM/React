@@ -13,7 +13,8 @@
 }
 .copyright {
 	  float: left;
-		color: #fff;
+    color: #fff;
+    font-family: "Arial";
 }
 .copyright a {
   color: #fff;

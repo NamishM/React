@@ -6,7 +6,7 @@ const Logo = ({
 }) => (
   <div className={className} style={{ lineHeight: '50px', width: '250px', float: 'left' }}>
     <a style={{ cursor: 'pointer' }}>
-      <img src="/assets/images/logo_portfolio.png" alt="my logo" style={{ width: '250px' }} />
+      <img src="/src/assets/images/logo_portfolio.png" alt="my logo" style={{ width: '250px' }} />
     </a>
   </div>
 );

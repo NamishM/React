@@ -1,18 +1,16 @@
-var path = require('path');
+const path = require('path');
+const webpack = require('webpack');
+const WebpackBuildNotifier = require('webpack-build-notifier');
+const isProduction = process.env.NODE_ENV === 'production';
+
 module.exports = {
+    devtool : 'source-map',
     entry: {
-         main: [
-        './src/entry.jsx',
-      ],        
+        main: ['babel-polyfill', './src/main.jsx']        
     },
     output: {
-        path: __dirname,
-        filename: "bundle.js"
-    },
-    devServer: {
-        inline: true,
-        contentBase: './src',
-        port: 8100
+        path: path.join(__dirname, 'src', 'bundle'),
+        filename: '[name].bundle.js'
     },
     module: {
         rules: [
@@ -43,17 +41,17 @@ module.exports = {
                 test: /\.(js|jsx)$/,
                 enforce: 'pre',
                 loader: 'eslint-loader',
+                exclude: /node_modules|data|src\/assets|bootstrap\.config\.js|font-awesome\.config\.js/,
             },
             {
                 test: /\.(js|jsx)?$/,
                 exclude: /node_modules/,
                 use: [
                     {
-                    loader: 'babel-loader',
-                    query: {
-                        cacheDirectory: true,
-                        presets:['react'],
-                    },
+                        loader: 'babel-loader',
+                        query: {
+                            cacheDirectory: true,
+                        },
                     },
                 ],
             },
@@ -74,5 +72,8 @@ module.exports = {
         'node_modules',
       ],
       extensions: ['.json', '.js', '.jsx', '.css']
-    }
+    },
+    plugins: [
+        new WebpackBuildNotifier()
+    ]
 };

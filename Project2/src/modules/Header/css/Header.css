@@ -55,7 +55,8 @@ li.menu_item a {
 		display: block;
     text-decoration: none;
 		font-size: 13px;
-		border-color: #3b3737;		
+		border-color: #3b3737;
+		font-family: "Arial";		
 }
 
 li.menu_item.active a { 

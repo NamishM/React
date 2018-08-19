@@ -169,9 +169,9 @@
 
 
   // -------------------------------------------------------------------------------------------
-  // 
+  //
   // AVIA Countdown
-  // 
+  //
   // -------------------------------------------------------------------------------------------
   (function ($) {
     let _units	= ['weeks', 'days', 'hours', 'minutes', 'seconds'],
@@ -256,9 +256,9 @@
 
 
   // -------------------------------------------------------------------------------------------
-  // 
+  //
   // AVIA Image Hotspots
-  // 
+  //
   // -------------------------------------------------------------------------------------------
   (function ($) {
     $.fn.aviaHotspots = function (options) {
@@ -284,9 +284,9 @@
 
 
   // -------------------------------------------------------------------------------------------
-  // 
+  //
   // AVIA Magazine function for magazine sorting
-  // 
+  //
   // -------------------------------------------------------------------------------------------
   (function ($) {
     let animating = false,
@@ -340,11 +340,11 @@
   }(jQuery));
 
   // -------------------------------------------------------------------------------------------
-  // 
-  // AVIA MAPS API - loads the google maps api asynchronously 
-  // 
+  //
+  // AVIA MAPS API - loads the google maps api asynchronously
+  //
   // afterwards applies the map to the container
-  // 
+  //
   // -------------------------------------------------------------------------------------------
 
 
@@ -595,11 +595,11 @@
 
 
   // -------------------------------------------------------------------------------------------
-  // 
+  //
   // AVIA VIDEO API - make sure that youtube, vimeo and html 5 use the same interface
-  // 
+  //
   // requires froogaloop vimeo library and youtube iframe api (yt can be loaded async)
-  // 
+  //
   // -------------------------------------------------------------------------------------------
 
 
@@ -608,7 +608,7 @@
       // actual video element. either iframe or video
       this.$video	= $(video);
 
-      // container where the AviaVideoAPI object will be stored as data, and that can receive events like play, pause etc 
+      // container where the AviaVideoAPI object will be stored as data, and that can receive events like play, pause etc
       // also the container that allows to overwrite javacript options by adding html data- attributes
       this.$option_container = option_container ? $(option_container) : this.$video;
 
@@ -759,7 +759,7 @@
             // currently not used because it causes firefox problems
             /*
 					this.$video.load(function()
-					{ 	
+					{
 						if(_self.eventsBound == true || typeof _self.eventsBound == 'undefined') return;
 				        _self.$option_container.trigger('av-video-loaded');
 						$.avia_utilities.log('VIMEO Fallback Trigger');
@@ -845,7 +845,7 @@
 		************************************************************************ */
 
       api(action) {
-        // commands on mobile can not be executed if the player was not started manually 
+        // commands on mobile can not be executed if the player was not started manually
         if (this.isMobile && !this.was_started()) return;
 
         // prevent calling of unbound function
@@ -945,7 +945,7 @@
 
       /** **********************************************************************
 		YOUTUBE Methods
-		************************************************************************ */		
+		************************************************************************ */
 
       _youtube_play() {
         this.player.playVideo();
@@ -965,7 +965,7 @@
 
       _youtube_loop() {
         // does not work properly with iframe api. needs to manual loop on "end" event
-        // this.player.setLoop(true); 
+        // this.player.setLoop(true);
         if (this.playing == true) this.player.seekTo(0);
       },
 
@@ -1016,7 +1016,7 @@
     // simple wrapper to call the api. makes sure that the api data is not applied twice
     $.fn.aviaVideoApi = function (options, apply_to_parent) {
     	return this.each(function () {
-    		// by default save the object as data to the initial video. 
+    		// by default save the object as data to the initial video.
     		// in the case of slideshows its more benefitial to save it to a parent element (eg: the slide)
     		let applyTo = this;
 
@@ -1121,7 +1121,7 @@
 		  		loader		= $.avia_utilities.loading(),
 		  		finished	= function () { loading = false; loader.hide(); the_body.trigger('av_resize_finished'); };
 
-		  	// calculate a new offset	
+		  	// calculate a new offset
 		  	if (!data.offset) { data.offset = 0; }
 		  	data.offset += data.items;
 		  	data.action = 'avia_ajax_masonry_more';
@@ -1503,8 +1503,8 @@
 
 
   // -------------------------------------------------------------------------------------------
-  // Fullscreen Slideshow 
-  // 
+  // Fullscreen Slideshow
+  //
   // extends avia slideshow script with a more sophisticated preloader and fixed size for slider
   // -------------------------------------------------------------------------------------------
 
@@ -2623,8 +2623,8 @@
 
 
   // -------------------------------------------------------------------------------------------
-  // Aviaccordion Slideshow 
-  // 
+  // Aviaccordion Slideshow
+  //
   // accordion slider script
   // -------------------------------------------------------------------------------------------
 
@@ -2758,7 +2758,7 @@
 
 
     		if (allImageWidth < 110 && allow_repeat !== false) {
-    			// set height if necessary	
+    			// set height if necessary
     			let slideHeight = this.$slider.height(),
     				maxHeight 	= (slideHeight / allImageWidth) * 110;
 
@@ -2862,8 +2862,8 @@
 
 
   // -------------------------------------------------------------------------------------------
-  // Aviaccordion Slideshow 
-  // 
+  // Aviaccordion Slideshow
+  //
   // accordion slider script
   // -------------------------------------------------------------------------------------------
 
@@ -3297,7 +3297,7 @@
   $.avia_utilities.supported	= {};
   $.avia_utilities.supports	= (function () {
     let div		= document.createElement('div'),
-      vendors	= ['Khtml', 'Ms', 'Moz', 'Webkit']; // vendors	= ['Khtml', 'Ms','Moz','Webkit','O']; 
+      vendors	= ['Khtml', 'Ms', 'Moz', 'Webkit']; // vendors	= ['Khtml', 'Ms','Moz','Webkit','O'];
 
     return function (prop, vendor_overwrite) {
       if (div.style[prop] !== undefined) { return ''; }
@@ -3982,8 +3982,8 @@ Avia Slideshow
             setTimeout(() => { event.data.wrap.avia_animate({ opacity: 1 }, 400); }, 50);
           } else if ($html.is('.avia-msie') && !event.data.slide.is('.av-video-service-html5')) {
             /*
-					* Internet Explorer fires the ready event for external videos once they become visible 
-					* as oposed to other browsers which always fire immediately. 
+					* Internet Explorer fires the ready event for external videos once they become visible
+					* as oposed to other browsers which always fire immediately.
 					*/
             if (!event.data.slide.data('disableAutoplay')) event.data.slide.trigger('play');
           }

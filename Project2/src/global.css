@@ -1,0 +1,24 @@
+/* #fonts
+========================================== */
+@font-face {font-family: 'namfame-font'; font-weight: normal; font-style: normal;
+	src: url('assets/fonts/namfame-font.eot?v=3');
+	src: url('assets/fonts/namfame-font.eot?v=3#iefix') format('embedded-opentype'), 
+	url('assets/fonts/namfame-font.woff?v=3') format('woff'), 
+	url('assets/fonts/namfame-font.ttf?v=3') format('truetype'), 
+	url('assets/fonts/namfame-font.svg?v=3#namfame-font') format('svg');
+	}
+/* #Reset & Basics
+================================================== */
+	html, body, body > section#root {
+		height: 100%;
+	}
+
+	body {
+		margin: 0;
+		overflow-x: hidden;
+		overflow-y: auto;
+	}
+
+	a {
+		text-decoration: none;
+	}

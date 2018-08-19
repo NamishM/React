@@ -8,7 +8,6 @@
     "extends": ["airbnb", "plugin:redux-saga/recommended"],
     "rules": {
         "linebreak-style": ["error", "windows"],
-        "react/require-default-props": 0,
         "no-underscore-dangle": 0,
         "global-require": "off",
         "comma-dangle": ["error", {
@@ -18,8 +17,16 @@
             "exports": "always-multiline",
             "functions": "always-multiline"
         }],
-        "jsx-a11y/href-no-hash": "off",
-        "jsx-a11y/anchor-is-valid": ["warn", { "aspects": ["invalidHref"] }],
+        "redux-saga/no-unhandled-errors": 0,
+        "jsx-a11y/no-autofocus": 0,
+        "jsx-a11y/no-static-element-interactions": 0,
+        "jsx-a11y/label-has-for": 0,
+        "react/no-unused-prop-types": 0,
+        "react/require-extension": 0,
+        "react/require-default-props": 0,
+        "import/prefer-default-export": 0,
+        "import/no-webpack-loader-syntax": 0,
+        "no-param-reassign": 0,
         "import/first": ["error", {"absolute-first": false}],
         "import/no-extraneous-dependencies": [
             "error",
@@ -35,6 +42,10 @@
                 "selector": "ForInStatement",
                 "message": "for..in loops iterate over the entire prototype chain, which is virtually never what you want. Use Object.{keys,values,entries}, and iterate over the resulting array."
             },
+            // {
+            //     "selector": "ForOfStatement",
+            //     "message": "iterators/generators require regenerator-runtime, which is too heavyweight for this guide to allow them. Separately, loops should be avoided in favor of array iterations."
+            // },
             {
                 "selector": "LabeledStatement",
                 "message": "Labels are a form of GOTO; using them makes code confusing and hard to maintain and understand."
@@ -52,7 +63,7 @@
             }
         }
     },
-    "overrides": [
+    "overrides": [ // TODO: Does nothing until eslint v4
         {
             "files": ["**/*.spec.js"],
             "rules": {
