@@ -12,7 +12,7 @@ app.set('views', path.join(__dirname, 'templates'));
 app.use('/static', express.static('static'));
 
 //default route
-app.get('/', (req, res) => res.render('index', { title : 'Linino Shopping Cart' }));
+app.get('/', (req, res) => res.render('index', { title : 'Falabella Shopping Cart' }));
 
 //your routes
 app.get('/items', (req, res) => res.json(mock));
