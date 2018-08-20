@@ -7,7 +7,7 @@ const Introduction = () => (
     strength={400}
     bgStyle={{ backgroundSize: '100px' }}
   >
-    <div className="container caption_container">
+    <div className="container caption_container" style={{ position: 'static' }}>
       <div className="caption">
         <div className="inner_caption">
           <div className="align_caption">
@@ -25,7 +25,7 @@ const Introduction = () => (
         </div>
       </div>
       {/* eslint-disable */}
-      <a href="/#next-section" className="scroll-down-link" aria-hidden="true" data-scroll_icon="" data-iconfont="namfame-font" />
+      <a href="/#portfolio" className="scroll-down-link" aria-hidden="true" data-scroll_icon="" data-iconfont="namfame-font" />
       {/* eslint-enable */}
     </div>
   </Parallax>
