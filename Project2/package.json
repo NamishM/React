@@ -10,7 +10,8 @@
     "webpack": "webpack --progress --colors --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "cross-env NODE_ENV=development eslint --ext .js,.jsx src/**",
-    "lint:fix": "npm run lint -- --fix"
+    "lint:fix": "npm run lint -- --fix",
+    "build": "cross-env NODE_ENV=production webpack --config webpack.config.js"
   },
   "dependencies": {
     "babel-polyfill": "^6.3.14",

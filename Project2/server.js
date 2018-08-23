@@ -16,7 +16,7 @@ app.use(webpackHotMiddleware(compiler));
 
 app.engine('hbs', consolidate.handlebars);
 app.set('view engine', 'hbs');
-app.set('views', path.join(__dirname, 'templates'));
+app.set('views', path.join(__dirname, ''));
 
 //middlewares
 app.use('/src', express.static('src'));

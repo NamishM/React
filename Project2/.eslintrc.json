@@ -27,6 +27,7 @@
         "import/prefer-default-export": 0,
         "import/no-webpack-loader-syntax": 0,
         "no-param-reassign": 0,
+        "no-console": 0,
         "import/first": ["error", {"absolute-first": false}],
         "import/no-extraneous-dependencies": [
             "error",
