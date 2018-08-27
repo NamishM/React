@@ -18,8 +18,8 @@ const Introduction = () => (
               </p>
             </div>
             <div className="btn_container">
-              <a href="/#about" className="button color-light" target="_blank">Learn more</a>
-              <a href="/#contact" className="button color-theme" target="_blank">Get in Touch</a>
+              <a href="/#about" className="button color-light">Learn more</a>
+              <a href="/#contact" className="button color-theme">Get in Touch</a>
             </div>
           </div>
         </div>

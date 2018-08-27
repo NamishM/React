@@ -18,8 +18,9 @@ const Services = () => (
         </li>
       </ul>
       <p className="project-desc" style={{ marginTop: '100px' }}>
-        Here is the link of few projects in React I did for my own, have a look...
+        Here is the link of few projects in React I did, have a look...
       </p>
+      <p>(Design under progress......)</p>
     </div>
   </div>
 );

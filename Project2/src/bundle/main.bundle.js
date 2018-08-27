@@ -21439,6 +21439,32 @@ var ITEMS_LOAD_SUCCESS = 'ITEMS_LOAD_SUCCESS';
 var ITEMS_LOAD_FAILED = 'ITEMS_LOAD_FAILED';
 var SET_ITEM_ADDED = 'SET_ITEM_ADDED';
 var ITEM_REMOVED = 'ITEM_REMOVED';
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(ITEMS_LOAD_SUCCESS, 'ITEMS_LOAD_SUCCESS', 'D:/New React Location/React/Project2/src/redux/constants/ActionTypes.js');
+
+  __REACT_HOT_LOADER__.register(ITEMS_LOAD_FAILED, 'ITEMS_LOAD_FAILED', 'D:/New React Location/React/Project2/src/redux/constants/ActionTypes.js');
+
+  __REACT_HOT_LOADER__.register(SET_ITEM_ADDED, 'SET_ITEM_ADDED', 'D:/New React Location/React/Project2/src/redux/constants/ActionTypes.js');
+
+  __REACT_HOT_LOADER__.register(ITEM_REMOVED, 'ITEM_REMOVED', 'D:/New React Location/React/Project2/src/redux/constants/ActionTypes.js');
+}();
+
+;
+;
+
+var _temp2 = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
 
 /***/ }),
 /* 320 */
@@ -26828,6 +26854,28 @@ if (false) {
     render(Router);
   });
 }
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(store, 'store', 'D:/New React Location/React/Project2/src/main.jsx');
+
+  __REACT_HOT_LOADER__.register(render, 'render', 'D:/New React Location/React/Project2/src/main.jsx');
+}();
+
+;
+;
+
+var _temp2 = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
 
 /***/ }),
 /* 525 */
@@ -28408,7 +28456,35 @@ App.propTypes = {
   store: __WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.shape()
 };
 
-/* harmony default export */ __webpack_exports__["a"] = (App);
+var _default = App;
+var _default2 = _default;
+/* harmony default export */ __webpack_exports__["a"] = (_default2);
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(ErrorPage, 'ErrorPage', 'D:/New React Location/React/Project2/src/router/main.router.js');
+
+  __REACT_HOT_LOADER__.register(App, 'App', 'D:/New React Location/React/Project2/src/router/main.router.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', 'D:/New React Location/React/Project2/src/router/main.router.js');
+
+  __REACT_HOT_LOADER__.register(_default2, 'default', 'D:/New React Location/React/Project2/src/router/main.router.js');
+}();
+
+;
+;
+
+var _temp2 = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
 
 /***/ }),
 /* 528 */
@@ -31605,7 +31681,33 @@ var withRouter = function withRouter(Component) {
 
 var browserHistory = __WEBPACK_IMPORTED_MODULE_0_history_createBrowserHistory___default()({ basename: '' });
 
-/* harmony default export */ __webpack_exports__["a"] = (browserHistory);
+var _default = browserHistory;
+var _default2 = _default;
+/* harmony default export */ __webpack_exports__["a"] = (_default2);
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(browserHistory, 'browserHistory', 'D:/New React Location/React/Project2/src/router/browserHistory.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', 'D:/New React Location/React/Project2/src/router/browserHistory.js');
+
+  __REACT_HOT_LOADER__.register(_default2, 'default', 'D:/New React Location/React/Project2/src/router/browserHistory.js');
+}();
+
+;
+;
+
+var _temp2 = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
 
 /***/ }),
 /* 565 */
@@ -32404,7 +32506,35 @@ var MainView = function (_Component) {
   return MainView;
 }(__WEBPACK_IMPORTED_MODULE_5_react__["Component"]);
 
-/* harmony default export */ __webpack_exports__["a"] = (MainView);
+var _default = MainView;
+var _default2 = _default;
+
+
+/* harmony default export */ __webpack_exports__["a"] = (_default2);
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(MainView, 'MainView', 'D:/New React Location/React/Project2/src/modules/common/components/MainView.jsx');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', 'D:/New React Location/React/Project2/src/modules/common/components/MainView.jsx');
+
+  __REACT_HOT_LOADER__.register(_default2, 'default', 'D:/New React Location/React/Project2/src/modules/common/components/MainView.jsx');
+}();
+
+;
+;
+
+var _temp2 = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
 
 /***/ }),
 /* 574 */
@@ -33201,7 +33331,33 @@ var Header = function Header() {
   );
 };
 
-/* harmony default export */ __webpack_exports__["a"] = (Header);
+var _default = Header;
+var _default2 = _default;
+/* harmony default export */ __webpack_exports__["a"] = (_default2);
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(Header, 'Header', 'D:/New React Location/React/Project2/src/modules/Header/components/Header.jsx');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', 'D:/New React Location/React/Project2/src/modules/Header/components/Header.jsx');
+
+  __REACT_HOT_LOADER__.register(_default2, 'default', 'D:/New React Location/React/Project2/src/modules/Header/components/Header.jsx');
+}();
+
+;
+;
+
+var _temp2 = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
 
 /***/ }),
 /* 611 */
@@ -34651,7 +34807,33 @@ Logo.propTypes = {
   className: __WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.string
 };
 
-/* harmony default export */ __webpack_exports__["a"] = (Logo);
+var _default = Logo;
+var _default2 = _default;
+/* harmony default export */ __webpack_exports__["a"] = (_default2);
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(Logo, 'Logo', 'D:/New React Location/React/Project2/src/modules/Header/components/Logo.jsx');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', 'D:/New React Location/React/Project2/src/modules/Header/components/Logo.jsx');
+
+  __REACT_HOT_LOADER__.register(_default2, 'default', 'D:/New React Location/React/Project2/src/modules/Header/components/Logo.jsx');
+}();
+
+;
+;
+
+var _temp2 = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
 
 /***/ }),
 /* 621 */
@@ -34751,7 +34933,35 @@ var Navbar = function Navbar() {
   );
 };
 
-/* harmony default export */ __webpack_exports__["a"] = (Navbar);
+var _default = Navbar;
+var _default2 = _default;
+/* harmony default export */ __webpack_exports__["a"] = (_default2);
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(toggleClass, 'toggleClass', 'D:/New React Location/React/Project2/src/modules/Header/components/Navbar.jsx');
+
+  __REACT_HOT_LOADER__.register(Navbar, 'Navbar', 'D:/New React Location/React/Project2/src/modules/Header/components/Navbar.jsx');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', 'D:/New React Location/React/Project2/src/modules/Header/components/Navbar.jsx');
+
+  __REACT_HOT_LOADER__.register(_default2, 'default', 'D:/New React Location/React/Project2/src/modules/Header/components/Navbar.jsx');
+}();
+
+;
+;
+
+var _temp2 = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
 
 /***/ }),
 /* 622 */
@@ -34929,7 +35139,33 @@ var Content = function Content() {
   );
 };
 
-/* harmony default export */ __webpack_exports__["a"] = (Content);
+var _default = Content;
+var _default2 = _default;
+/* harmony default export */ __webpack_exports__["a"] = (_default2);
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(Content, 'Content', 'D:/New React Location/React/Project2/src/modules/Content/components/Content.jsx');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', 'D:/New React Location/React/Project2/src/modules/Content/components/Content.jsx');
+
+  __REACT_HOT_LOADER__.register(_default2, 'default', 'D:/New React Location/React/Project2/src/modules/Content/components/Content.jsx');
+}();
+
+;
+;
+
+var _temp2 = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
 
 /***/ }),
 /* 626 */
@@ -34986,12 +35222,12 @@ var Introduction = function Introduction() {
               { className: 'btn_container' },
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'a',
-                { href: '/#about', className: 'button color-light', target: '_blank' },
+                { href: '/#about', className: 'button color-light' },
                 'Learn more'
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'a',
-                { href: '/#contact', className: 'button color-theme', target: '_blank' },
+                { href: '/#contact', className: 'button color-theme' },
                 'Get in Touch'
               )
             )
@@ -35003,7 +35239,33 @@ var Introduction = function Introduction() {
   );
 };
 
-/* harmony default export */ __webpack_exports__["a"] = (Introduction);
+var _default = Introduction;
+var _default2 = _default;
+/* harmony default export */ __webpack_exports__["a"] = (_default2);
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(Introduction, 'Introduction', 'D:/New React Location/React/Project2/src/modules/Content/components/Introduction.jsx');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', 'D:/New React Location/React/Project2/src/modules/Content/components/Introduction.jsx');
+
+  __REACT_HOT_LOADER__.register(_default2, 'default', 'D:/New React Location/React/Project2/src/modules/Content/components/Introduction.jsx');
+}();
+
+;
+;
+
+var _temp2 = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
 
 /***/ }),
 /* 627 */
@@ -52952,7 +53214,33 @@ var RecentProjects = function RecentProjects() {
   );
 };
 
-/* harmony default export */ __webpack_exports__["a"] = (RecentProjects);
+var _default = RecentProjects;
+var _default2 = _default;
+/* harmony default export */ __webpack_exports__["a"] = (_default2);
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(RecentProjects, "RecentProjects", "D:/New React Location/React/Project2/src/modules/Content/components/RecentProjects.jsx");
+
+  __REACT_HOT_LOADER__.register(_default, "default", "D:/New React Location/React/Project2/src/modules/Content/components/RecentProjects.jsx");
+
+  __REACT_HOT_LOADER__.register(_default2, "default", "D:/New React Location/React/Project2/src/modules/Content/components/RecentProjects.jsx");
+}();
+
+;
+;
+
+var _temp2 = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
 
 /***/ }),
 /* 637 */
@@ -52991,11 +53279,8 @@ var Clients = function (_Component) {
 
     var _this = __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn___default()(this, (Clients.__proto__ || __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of___default()(Clients)).call(this, props));
 
-    _this.onChange = function (isVisible) {
-      _this.setState({ podClassName: isVisible && !_this.state.changed ? 'inner_color_visible' : 'inner_color' });
-      if (isVisible && !_this.state.changed) {
-        _this.setState({ changed: true });
-      }
+    _this.onChange = function () {
+      return _this.__onChange__REACT_HOT_LOADER__.apply(_this, arguments);
     };
 
     _this.state = {
@@ -53006,6 +53291,19 @@ var Clients = function (_Component) {
   }
 
   __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass___default()(Clients, [{
+    key: '__onChange__REACT_HOT_LOADER__',
+    value: function __onChange__REACT_HOT_LOADER__() {
+      return this.__onChange__REACT_HOT_LOADER__.apply(this, arguments);
+    }
+  }, {
+    key: '__onChange__REACT_HOT_LOADER__',
+    value: function __onChange__REACT_HOT_LOADER__(isVisible) {
+      this.setState({ podClassName: isVisible && !this.state.changed ? 'inner_color_visible' : 'inner_color' });
+      if (isVisible && !this.state.changed) {
+        this.setState({ changed: true });
+      }
+    }
+  }, {
     key: 'render',
     value: function render() {
       return __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
@@ -53032,7 +53330,35 @@ var Clients = function (_Component) {
   return Clients;
 }(__WEBPACK_IMPORTED_MODULE_5_react__["Component"]);
 
-/* harmony default export */ __webpack_exports__["a"] = (Clients);
+var _default = Clients;
+var _default2 = _default;
+
+
+/* harmony default export */ __webpack_exports__["a"] = (_default2);
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(Clients, 'Clients', 'D:/New React Location/React/Project2/src/modules/Content/components/Clients.jsx');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', 'D:/New React Location/React/Project2/src/modules/Content/components/Clients.jsx');
+
+  __REACT_HOT_LOADER__.register(_default2, 'default', 'D:/New React Location/React/Project2/src/modules/Content/components/Clients.jsx');
+}();
+
+;
+;
+
+var _temp2 = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
 
 /***/ }),
 /* 638 */
@@ -53164,7 +53490,33 @@ ClientsImageUI.propTypes = {
   podClass: __WEBPACK_IMPORTED_MODULE_6_prop_types___default.a.string.isRequired
 };
 
-/* harmony default export */ __webpack_exports__["a"] = (ClientsImageUI);
+var _default = ClientsImageUI;
+var _default2 = _default;
+/* harmony default export */ __webpack_exports__["a"] = (_default2);
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(ClientsImageUI, 'ClientsImageUI', 'D:/New React Location/React/Project2/src/modules/Content/components/ClientsImageUI.jsx');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', 'D:/New React Location/React/Project2/src/modules/Content/components/ClientsImageUI.jsx');
+
+  __REACT_HOT_LOADER__.register(_default2, 'default', 'D:/New React Location/React/Project2/src/modules/Content/components/ClientsImageUI.jsx');
+}();
+
+;
+;
+
+var _temp2 = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
 
 /***/ }),
 /* 639 */
@@ -54242,11 +54594,8 @@ var ProjectNumbers = function (_Component) {
 
     var _this = __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn___default()(this, (ProjectNumbers.__proto__ || __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of___default()(ProjectNumbers)).call(this, props));
 
-    _this.onChange = function (isVisible) {
-      _this.setState({ startNumberAnimation: isVisible && !_this.state.changed });
-      if (isVisible && !_this.state.changed) {
-        _this.setState({ changed: true });
-      }
+    _this.onChange = function () {
+      return _this.__onChange__REACT_HOT_LOADER__.apply(_this, arguments);
     };
 
     _this.state = {
@@ -54257,6 +54606,19 @@ var ProjectNumbers = function (_Component) {
   }
 
   __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass___default()(ProjectNumbers, [{
+    key: '__onChange__REACT_HOT_LOADER__',
+    value: function __onChange__REACT_HOT_LOADER__() {
+      return this.__onChange__REACT_HOT_LOADER__.apply(this, arguments);
+    }
+  }, {
+    key: '__onChange__REACT_HOT_LOADER__',
+    value: function __onChange__REACT_HOT_LOADER__(isVisible) {
+      this.setState({ startNumberAnimation: isVisible && !this.state.changed });
+      if (isVisible && !this.state.changed) {
+        this.setState({ changed: true });
+      }
+    }
+  }, {
     key: 'render',
     value: function render() {
       return __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
@@ -54361,7 +54723,41 @@ var ProjectNumbers = function (_Component) {
   return ProjectNumbers;
 }(__WEBPACK_IMPORTED_MODULE_5_react__["Component"]);
 
-/* harmony default export */ __webpack_exports__["a"] = (ProjectNumbers);
+var _default = ProjectNumbers;
+var _default2 = _default;
+
+
+/* harmony default export */ __webpack_exports__["a"] = (_default2);
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(settings, 'settings', 'D:/New React Location/React/Project2/src/modules/Content/components/ProjectNumbers.jsx');
+
+  __REACT_HOT_LOADER__.register(settings2, 'settings2', 'D:/New React Location/React/Project2/src/modules/Content/components/ProjectNumbers.jsx');
+
+  __REACT_HOT_LOADER__.register(settings3, 'settings3', 'D:/New React Location/React/Project2/src/modules/Content/components/ProjectNumbers.jsx');
+
+  __REACT_HOT_LOADER__.register(ProjectNumbers, 'ProjectNumbers', 'D:/New React Location/React/Project2/src/modules/Content/components/ProjectNumbers.jsx');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', 'D:/New React Location/React/Project2/src/modules/Content/components/ProjectNumbers.jsx');
+
+  __REACT_HOT_LOADER__.register(_default2, 'default', 'D:/New React Location/React/Project2/src/modules/Content/components/ProjectNumbers.jsx');
+}();
+
+;
+;
+
+var _temp2 = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
 
 /***/ }),
 /* 643 */
@@ -64518,13 +64914,44 @@ var Services = function Services() {
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         "p",
         { className: "project-desc", style: { marginTop: '100px' } },
-        "Here is the link of few projects in React I did for my own, have a look..."
+        "Here is the link of few projects in React I did, have a look..."
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        "p",
+        null,
+        "(Design under progress......)"
       )
     )
   );
 };
 
-/* harmony default export */ __webpack_exports__["a"] = (Services);
+var _default = Services;
+var _default2 = _default;
+/* harmony default export */ __webpack_exports__["a"] = (_default2);
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(Services, "Services", "D:/New React Location/React/Project2/src/modules/Content/components/Services.jsx");
+
+  __REACT_HOT_LOADER__.register(_default, "default", "D:/New React Location/React/Project2/src/modules/Content/components/Services.jsx");
+
+  __REACT_HOT_LOADER__.register(_default2, "default", "D:/New React Location/React/Project2/src/modules/Content/components/Services.jsx");
+}();
+
+;
+;
+
+var _temp2 = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
 
 /***/ }),
 /* 723 */
@@ -64566,7 +64993,7 @@ exports = module.exports = __webpack_require__(95)(undefined);
 
 
 // module
-exports.push([module.i, "@-webkit-keyframes namfame_fade_move_down {\n  0% {\n    -webkit-transform: translate(0, -20px);\n    opacity: 0;\n  }\n  50% {\n    opacity: 1;\n  }\n  100% {\n    -webkit-transform: translate(0, 20px);\n    opacity: 0;\n  }\n}\n@keyframes namfame_fade_move_down {\n  0% {\n    transform: translate(0, -20px);\n    opacity: 0;\n  }\n  50% {\n    opacity: 1;\n  }\n  100% {\n    transform: translate(0, 20px);\n    opacity: 0;\n  }\n}\n.content {\n  height: 100%;\n}\n.content .react-parallax {\n  width: 100%;\n  height: 100%;\n}\n.content .react-parallax .react-parallax-content {\n  position: static !important;\n}\n.content .caption_container {\n  padding-top: 0;\n  height: 100%;\n}\n.content .caption_container .caption {\n  left: 0;\n  width: 100%;\n  text-align: center;\n}\n.content .caption_container .inner_caption {\n  border-color: #363636;\n  position: relative;\n  display: table;\n  height: 100%;\n  width: 100%;\n}\n.content .caption_container .align_caption {\n  border-color: #363636;\n  display: table-cell;\n  vertical-align: middle;\n  position: relative;\n}\n.content .caption_container .caption-title {\n  text-transform: uppercase;\n  font-size: 50px;\n  color: #fff;\n  font-family: cursive;\n  margin: 45px 0 20px;\n}\n.content .caption_container .caption-content {\n  font-size: 20px;\n  color: #dedede;\n  line-height: 1.3em;\n}\n.content .caption_container .btn_container {\n  margin: 160px 0 0;\n}\n.content .align_caption a {\n  padding: 12px 16px;\n  border-radius: 3px;\n  text-transform: uppercase;\n  display: inline-block;\n  margin-top: 20px;\n  text-decoration: none;\n  font-weight: bold;\n  margin-right: 20px;\n  font-size: 12px;\n  margin: 3px 0;\n  line-height: 1.2em;\n  position: relative;\n  text-align: center;\n  max-width: 100%;\n  min-width: 140px;\n  opacity: 0.9;\n}\n.content .align_caption a:hover {\n  opacity: 0.7;\n}\n.content .align_caption a.color-light {\n  color: #fff;\n  border: 3px solid #fff;\n  background: #000;\n  font-family: \"arial\";\n}\n.content .align_caption a.color-theme {\n  color: #fff;\n  background-color: #a26a39;\n  border-color: #c7884f;\n  margin-left: 30px;\n  border-style: solid;\n  font-family: \"arial\";\n}\n.content a.scroll-down-link {\n  height: 60px;\n  width: 80px;\n  margin: 0px 0 0 -40px;\n  line-height: 60px;\n  position: absolute;\n  left: 50%;\n  bottom: 0px;\n  color: #FFF;\n  text-align: center;\n  font-size: 70px;\n  z-index: 100;\n  text-decoration: none;\n  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);\n  -webkit-animation: namfame_fade_move_down 2s ease-in-out infinite;\n  animation: namfame_fade_move_down 2s ease-in-out infinite;\n}\n.content [data-scroll_icon]:before {\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  font-weight: normal;\n  content: attr(data-scroll_icon);\n  speak: none;\n  font-family: 'namfame-font';\n}\n.content #portfolio {\n  clear: both;\n  width: 100%;\n  float: left;\n  min-height: 100px;\n  position: static;\n  background: #141414;\n  margin-top: -5px;\n}\n.content #portfolio .container {\n  position: relative;\n  width: 100%;\n  margin: 0 auto;\n  padding: 0px 50px;\n  clear: both;\n}\n.content #portfolio .container .template-page {\n  padding: 70px 0;\n}\n.content #portfolio .container .special-heading {\n  text-align: center;\n}\n.content #portfolio .container .special-heading-tag {\n  white-space: normal;\n  float: none;\n  font-weight: 300;\n  padding: 0;\n  width: 50%;\n  margin: auto;\n  font-size: 1em;\n  color: #fff;\n  font-family: 'Raleway', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n  line-height: 1.1em;\n}\n.content #portfolio .container .special-heading-tag .special_amp {\n  color: #4ecac2;\n  font-family: \"Baskerville\", \"Palatino Linotype\", \"Palatino\", \"Times New Roman\", serif;\n  font-style: italic;\n  font-size: 1.3em;\n  line-height: 0.5em;\n  font-weight: normal;\n}\n.content .main_client {\n  background-color: #141414;\n  color: #ffffff;\n  clear: both;\n  position: relative;\n}\n.content .main_client .pod-container-wrap {\n  position: relative;\n  overflow: hidden;\n  clear: both;\n  background-color: #000000;\n  border-color: #363636;\n}\n.content .main_client .pod-container-wrap .pod-container {\n  position: relative;\n  height: 722.126px;\n  width: 100%;\n  float: left;\n  clear: both;\n  border-color: #363636;\n  -webkit-transition: height 0.5s 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);\n  transition: height 0.5s 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);\n}\n.content .main_client .pod-container-wrap .pod-container .pod-item-no-image {\n  position: absolute;\n  left: 0px;\n  top: 0px;\n  z-index: 2;\n  -webkit-perspective: 600px;\n  -moz-perspective: 600px;\n  perspective: 600px;\n  opacity: 1;\n  visibility: visible;\n  width: 33.3%;\n  display: block;\n  float: left;\n  clear: none;\n  text-decoration: none;\n  border-color: #363636;\n}\n.content .main_client .pod-container-wrap .pod-container .pod-item {\n  display: block;\n  float: left;\n  clear: none;\n  text-decoration: none;\n  visibility: visible;\n  opacity: 1;\n  -webkit-perspective: 600px;\n  -moz-perspective: 600px;\n  perspective: 600px;\n  z-index: 2;\n  border-color: #363636;\n  width: 33.3%;\n  color: #4ecac2;\n}\n.content .main_client .pod-container-wrap .pod-container .pod-item:hover .image-container {\n  opacity: 1;\n  transform: scale(1.1);\n}\n.content .main_client .pod-container-wrap .pod-container .pod-item-sizer {\n  width: 100%;\n  padding-bottom: 80%;\n  z-index: 1;\n  border-color: #363636;\n}\n.content .main_client .pod-container-wrap .pod-container figure.inner_color {\n  position: absolute;\n  top: 0px;\n  left: 5px;\n  right: 10px;\n  bottom: 15px;\n  overflow: hidden;\n  border-color: #363636;\n  background-color: #141414;\n  color: #ffffff;\n}\n.content .main_client .pod-container-wrap .pod-container figure.inner_color_visible {\n  -webkit-animation: clients_show 0.8s 1 cubic-bezier(0.175, 0.885, 0.32, 1.075);\n  animation: clients_show 0.8s 1 cubic-bezier(0.175, 0.885, 0.32, 1.075);\n  position: absolute;\n  top: 0px;\n  left: 5px;\n  right: 10px;\n  bottom: 15px;\n  overflow: hidden;\n  border-color: #363636;\n  background-color: #141414;\n  color: #ffffff;\n}\n.content .main_client .pod-container-wrap .pod-container .outer-image-container {\n  position: absolute;\n  top: 0;\n  left: 0;\n  bottom: 0;\n  right: 0;\n  z-index: 1;\n  overflow: hidden;\n  border-color: #363636;\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline;\n}\n.content .main_client .pod-container-wrap .pod-container .image-container {\n  opacity: 0.7;\n  position: absolute;\n  -webkit-transition: all 0.4s ease-in-out;\n  transition: all 0.4s ease-in-out;\n  text-align: center;\n  background-size: cover;\n  background-position: center center;\n  top: 0;\n  left: 0;\n  bottom: 0;\n  right: 0;\n  z-index: 1;\n}\n.content .main_client .pod-container-wrap .pod-container .image-container.acs {\n  background-image: url('/src/assets/images/showcase_acs.jpg');\n}\n.content .main_client .pod-container-wrap .pod-container .image-container.sunspr {\n  background-image: url('/src/assets/images/showcase_sunspr.jpg');\n}\n.content .main_client .pod-container-wrap .pod-container .image-container.rbs {\n  background-image: url('/src/assets/images/showcase_rbs.jpg');\n}\n.content .main_client .pod-container-wrap .pod-container .image-container.eon {\n  background-image: url('/src/assets/images/showcase_eon.jpg');\n}\n.content .main_client .pod-container-wrap .pod-container .image-container.fidelity {\n  background-image: url('/src/assets/images/showcase_fidelity.jpg');\n}\n.content .main_client .pod-container-wrap .pod-container .image-container.ln {\n  background-image: url('/src/assets/images/showcase_lexisnexis.jpg');\n}\n.content .about_fullsize {\n  clear: both;\n  width: 100%;\n  float: left;\n  min-height: 100px;\n  position: static;\n  background-color: #141414;\n}\n.content .template-page {\n  width: 100%;\n  border: none;\n  margin-left: auto;\n  padding-left: 0;\n  margin-right: auto;\n  padding-top: 130px;\n  padding-bottom: 130px;\n}\n.content .three_fifth {\n  z-index: 1;\n  position: relative;\n  min-height: 1px;\n  margin: 0 auto;\n  width: 57.599999999999994%;\n}\n.content .profile-image-container {\n  display: block;\n  margin: 0 auto 10px auto;\n  text-align: center;\n  clear: both;\n}\n.content .profile-image-container-inner {\n  margin: 0 auto;\n  display: inline-block;\n  vertical-align: bottom;\n  overflow: hidden;\n  border-radius: 10000px;\n  position: relative;\n  max-width: 100%;\n}\n.content .my_image {\n  overflow: hidden;\n  border-radius: 10000px;\n  display: block;\n  position: relative;\n  max-width: 100%;\n  height: auto;\n  border: none;\n  padding: 0;\n  margin: 0;\n}\n.content .desc-container {\n  padding-bottom: 10px;\n  font-size: 30px;\n  text-align: center;\n  width: 100%;\n  clear: both;\n  display: block;\n  margin-top: 50px;\n  position: relative;\n}\n.content .desc-container .special-heading-tag {\n  white-space: normal;\n  float: none;\n  padding: 0;\n  margin: 0;\n  font-weight: 300;\n  font-size: 1em;\n  color: #ffffff;\n  font-family: 'Raleway', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n}\n.content .desc-container .special-heading-tag .special_amp {\n  color: #4ecac2;\n  font-family: \"Baskerville\", \"Palatino Linotype\", \"Palatino\", \"Times New Roman\", serif;\n  font-style: italic;\n  font-size: 1.3em;\n  line-height: 0.5em;\n  font-weight: normal;\n}\n.content .more-desciption {\n  color: #fff;\n  font-family: \"Arial\";\n  margin-top: 18px;\n  text-align: center;\n}\n.content .more-desciption .border-bottom {\n  margin: 50px auto;\n  width: 20%;\n  border-bottom: 2px solid #4ecac2;\n}\n.content .numbers-animation {\n  color: #fff;\n  font-family: \"Arial\";\n}\n.content .numbers-animation .numbers-style {\n  display: inline-block;\n  width: 33.3%;\n  text-align: center;\n}\n.content .numbers-animation .counter-number {\n  font-size: 50px;\n}\n.content .numbers-animation .counter-desc {\n  font-size: 18px;\n}\n.content .services {\n  clear: both;\n  width: 100%;\n  float: left;\n  filter: grayscale(100%) brightness(70%);\n  background-color: #141414;\n  min-height: 100vh;\n  position: static;\n  background-image: url('/src/assets/images/laptop.jpg');\n  background-position: 0% 25%;\n}\n.content .services .services-content {\n  margin: 20px;\n  font-family: \"Arial\";\n  color: #fff;\n}\n.content .services .services-content h3 {\n  font-size: 40px;\n  margin: 30px 0;\n}\n.content .services .list-things {\n  list-style: none;\n}\n.content .services .list-things .big-font {\n  font-size: 24px;\n}\n.content .services .list-things li {\n  width: 50%;\n  font-size: 14px;\n  margin: 0 0 32px;\n  font-size: 18px;\n}\n@-webkit-keyframes clients_show {\n  0% {\n    -webkit-transform: translateZ(300px) translateY(200px) rotateX(-70deg);\n    opacity: 0.1;\n  }\n  100% {\n    -webkit-transform: translateZ(0px) translateY(0px) rotateX(0deg);\n    opacity: 1;\n  }\n}\n@keyframes clients_show {\n  0% {\n    transform: translateZ(300px) translateY(200px) rotateX(-70deg);\n    opacity: 0.1;\n  }\n  100% {\n    transform: translateZ(0px) translateY(0px) rotateX(0deg);\n    opacity: 1;\n  }\n}\n@media (max-width: 767px) {\n  .content .caption_container {\n    margin-top: 10px;\n  }\n  .content .caption_container .caption-title {\n    font-size: 30px;\n  }\n  .content .caption_container .caption-content {\n    font-size: 20px;\n    color: #a2665b;\n    line-height: 1em;\n    margin: 33px 0 0;\n  }\n  .content .caption_container .btn_container {\n    margin: 80px 0 0;\n  }\n  .content .caption_container .btn_container a {\n    display: block;\n    margin: 10px 0;\n  }\n  #portfolio .container {\n    padding: 0 !important;\n  }\n  #portfolio .container h3 {\n    width: auto !important;\n  }\n  #about .container {\n    padding: 0 !important;\n  }\n  #about .container .three_fifth {\n    width: auto !important;\n  }\n}\n", ""]);
+exports.push([module.i, "@-webkit-keyframes namfame_fade_move_down {\n  0% {\n    -webkit-transform: translate(0, -20px);\n    opacity: 0;\n  }\n  50% {\n    opacity: 1;\n  }\n  100% {\n    -webkit-transform: translate(0, 20px);\n    opacity: 0;\n  }\n}\n@keyframes namfame_fade_move_down {\n  0% {\n    transform: translate(0, -20px);\n    opacity: 0;\n  }\n  50% {\n    opacity: 1;\n  }\n  100% {\n    transform: translate(0, 20px);\n    opacity: 0;\n  }\n}\n.content {\n  height: 100%;\n}\n.content .react-parallax {\n  width: 100%;\n  height: 100%;\n}\n.content .react-parallax .react-parallax-content {\n  position: static !important;\n}\n.content .caption_container {\n  padding-top: 0;\n  height: 100%;\n}\n.content .caption_container .caption {\n  left: 0;\n  width: 100%;\n  text-align: center;\n}\n.content .caption_container .inner_caption {\n  border-color: #363636;\n  position: relative;\n  display: table;\n  height: 100%;\n  width: 100%;\n}\n.content .caption_container .align_caption {\n  border-color: #363636;\n  display: table-cell;\n  vertical-align: middle;\n  position: relative;\n}\n.content .caption_container .caption-title {\n  text-transform: uppercase;\n  font-size: 50px;\n  color: #fff;\n  font-family: cursive;\n  margin: 45px 0 20px;\n}\n.content .caption_container .caption-content {\n  font-size: 20px;\n  color: #dedede;\n  line-height: 1.3em;\n}\n.content .caption_container .btn_container {\n  margin: 160px 0 0;\n}\n.content .align_caption a {\n  padding: 12px 16px;\n  border-radius: 3px;\n  text-transform: uppercase;\n  display: inline-block;\n  margin-top: 20px;\n  text-decoration: none;\n  font-weight: bold;\n  margin-right: 20px;\n  font-size: 12px;\n  margin: 3px 0;\n  line-height: 1.2em;\n  position: relative;\n  text-align: center;\n  max-width: 100%;\n  min-width: 140px;\n  opacity: 0.9;\n}\n.content .align_caption a:hover {\n  opacity: 0.7;\n}\n.content .align_caption a.color-light {\n  color: #fff;\n  border: 3px solid #fff;\n  background: #000;\n  font-family: \"arial\";\n}\n.content .align_caption a.color-theme {\n  color: #fff;\n  background-color: #a26a39;\n  border-color: #c7884f;\n  margin-left: 30px;\n  border-style: solid;\n  font-family: \"arial\";\n}\n.content a.scroll-down-link {\n  height: 60px;\n  width: 80px;\n  margin: 0px 0 0 -40px;\n  line-height: 60px;\n  position: absolute;\n  left: 50%;\n  bottom: 0px;\n  color: #FFF;\n  text-align: center;\n  font-size: 70px;\n  z-index: 100;\n  text-decoration: none;\n  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);\n  -webkit-animation: namfame_fade_move_down 2s ease-in-out infinite;\n  animation: namfame_fade_move_down 2s ease-in-out infinite;\n}\n.content [data-scroll_icon]:before {\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  font-weight: normal;\n  content: attr(data-scroll_icon);\n  speak: none;\n  font-family: 'namfame-font';\n}\n.content #portfolio {\n  clear: both;\n  width: 100%;\n  float: left;\n  min-height: 100px;\n  position: static;\n  background: #141414;\n  margin-top: -5px;\n}\n.content #portfolio .container {\n  position: relative;\n  width: 100%;\n  margin: 0 auto;\n  padding: 0px 50px;\n  clear: both;\n}\n.content #portfolio .container .template-page {\n  padding: 70px 0;\n}\n.content #portfolio .container .special-heading {\n  text-align: center;\n}\n.content #portfolio .container .special-heading-tag {\n  white-space: normal;\n  float: none;\n  font-weight: 300;\n  padding: 0;\n  width: 50%;\n  margin: auto;\n  font-size: 1em;\n  color: #fff;\n  font-family: 'Raleway', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n  line-height: 1.1em;\n}\n.content #portfolio .container .special-heading-tag .special_amp {\n  color: #4ecac2;\n  font-family: \"Baskerville\", \"Palatino Linotype\", \"Palatino\", \"Times New Roman\", serif;\n  font-style: italic;\n  font-size: 1.3em;\n  line-height: 0.5em;\n  font-weight: normal;\n}\n.content .main_client {\n  background-color: #141414;\n  color: #ffffff;\n  clear: both;\n  position: relative;\n}\n.content .main_client .pod-container-wrap {\n  position: relative;\n  overflow: hidden;\n  clear: both;\n  background-color: #000000;\n  border-color: #363636;\n}\n.content .main_client .pod-container-wrap .pod-container {\n  position: relative;\n  height: 722.126px;\n  width: 100%;\n  float: left;\n  clear: both;\n  border-color: #363636;\n  -webkit-transition: height 0.5s 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);\n  transition: height 0.5s 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);\n}\n.content .main_client .pod-container-wrap .pod-container .pod-item-no-image {\n  position: absolute;\n  left: 0px;\n  top: 0px;\n  z-index: 2;\n  -webkit-perspective: 600px;\n  -moz-perspective: 600px;\n  perspective: 600px;\n  opacity: 1;\n  visibility: visible;\n  width: 33.3%;\n  display: block;\n  float: left;\n  clear: none;\n  text-decoration: none;\n  border-color: #363636;\n}\n.content .main_client .pod-container-wrap .pod-container .pod-item {\n  display: block;\n  float: left;\n  clear: none;\n  text-decoration: none;\n  visibility: visible;\n  opacity: 1;\n  -webkit-perspective: 600px;\n  -moz-perspective: 600px;\n  perspective: 600px;\n  z-index: 2;\n  border-color: #363636;\n  width: 33.3%;\n  color: #4ecac2;\n}\n.content .main_client .pod-container-wrap .pod-container .pod-item:hover .image-container {\n  opacity: 1;\n  transform: scale(1.1);\n}\n.content .main_client .pod-container-wrap .pod-container .pod-item-sizer {\n  width: 100%;\n  padding-bottom: 80%;\n  z-index: 1;\n  border-color: #363636;\n}\n.content .main_client .pod-container-wrap .pod-container figure.inner_color {\n  position: absolute;\n  top: 0px;\n  left: 5px;\n  right: 10px;\n  bottom: 15px;\n  overflow: hidden;\n  border-color: #363636;\n  background-color: #141414;\n  color: #ffffff;\n}\n.content .main_client .pod-container-wrap .pod-container figure.inner_color_visible {\n  -webkit-animation: clients_show 0.8s 1 cubic-bezier(0.175, 0.885, 0.32, 1.075);\n  animation: clients_show 0.8s 1 cubic-bezier(0.175, 0.885, 0.32, 1.075);\n  position: absolute;\n  top: 0px;\n  left: 5px;\n  right: 10px;\n  bottom: 15px;\n  overflow: hidden;\n  border-color: #363636;\n  background-color: #141414;\n  color: #ffffff;\n}\n.content .main_client .pod-container-wrap .pod-container .outer-image-container {\n  position: absolute;\n  top: 0;\n  left: 0;\n  bottom: 0;\n  right: 0;\n  z-index: 1;\n  overflow: hidden;\n  border-color: #363636;\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline;\n}\n.content .main_client .pod-container-wrap .pod-container .image-container {\n  opacity: 0.7;\n  position: absolute;\n  -webkit-transition: all 0.4s ease-in-out;\n  transition: all 0.4s ease-in-out;\n  text-align: center;\n  background-size: cover;\n  background-position: center center;\n  top: 0;\n  left: 0;\n  bottom: 0;\n  right: 0;\n  z-index: 1;\n}\n.content .main_client .pod-container-wrap .pod-container .image-container.acs {\n  background-image: url('/src/assets/images/showcase_acs.jpg');\n}\n.content .main_client .pod-container-wrap .pod-container .image-container.sunspr {\n  background-image: url('/src/assets/images/showcase_sunspr.jpg');\n}\n.content .main_client .pod-container-wrap .pod-container .image-container.rbs {\n  background-image: url('/src/assets/images/showcase_rbs.jpg');\n}\n.content .main_client .pod-container-wrap .pod-container .image-container.eon {\n  background-image: url('/src/assets/images/showcase_eon.jpg');\n}\n.content .main_client .pod-container-wrap .pod-container .image-container.fidelity {\n  background-image: url('/src/assets/images/showcase_fidelity.jpg');\n}\n.content .main_client .pod-container-wrap .pod-container .image-container.ln {\n  background-image: url('/src/assets/images/showcase_lexisnexis.jpg');\n}\n.content .about_fullsize {\n  clear: both;\n  width: 100%;\n  float: left;\n  min-height: 100px;\n  position: static;\n  background-color: #141414;\n}\n.content .template-page {\n  width: 100%;\n  border: none;\n  margin-left: auto;\n  padding-left: 0;\n  margin-right: auto;\n  padding-top: 130px;\n  padding-bottom: 130px;\n}\n.content .three_fifth {\n  z-index: 1;\n  position: relative;\n  min-height: 1px;\n  margin: 0 auto;\n  width: 57.599999999999994%;\n}\n.content .profile-image-container {\n  display: block;\n  margin: 0 auto 10px auto;\n  text-align: center;\n  clear: both;\n}\n.content .profile-image-container-inner {\n  margin: 0 auto;\n  display: inline-block;\n  vertical-align: bottom;\n  overflow: hidden;\n  border-radius: 10000px;\n  position: relative;\n  max-width: 100%;\n}\n.content .my_image {\n  overflow: hidden;\n  border-radius: 10000px;\n  display: block;\n  position: relative;\n  max-width: 100%;\n  height: auto;\n  border: none;\n  padding: 0;\n  margin: 0;\n}\n.content .desc-container {\n  padding-bottom: 10px;\n  font-size: 30px;\n  text-align: center;\n  width: 100%;\n  clear: both;\n  display: block;\n  margin-top: 50px;\n  position: relative;\n}\n.content .desc-container .special-heading-tag {\n  white-space: normal;\n  float: none;\n  padding: 0;\n  margin: 0;\n  font-weight: 300;\n  font-size: 1em;\n  color: #ffffff;\n  font-family: 'Raleway', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n}\n.content .desc-container .special-heading-tag .special_amp {\n  color: #4ecac2;\n  font-family: \"Baskerville\", \"Palatino Linotype\", \"Palatino\", \"Times New Roman\", serif;\n  font-style: italic;\n  font-size: 1.3em;\n  line-height: 0.5em;\n  font-weight: normal;\n}\n.content .more-desciption {\n  color: #fff;\n  font-family: \"Arial\";\n  margin-top: 18px;\n  text-align: center;\n}\n.content .more-desciption .border-bottom {\n  margin: 50px auto;\n  width: 20%;\n  border-bottom: 2px solid #4ecac2;\n}\n.content .numbers-animation {\n  color: #fff;\n  font-family: \"Arial\";\n}\n.content .numbers-animation .numbers-style {\n  display: inline-block;\n  width: 33.3%;\n  text-align: center;\n}\n.content .numbers-animation .counter-number {\n  font-size: 50px;\n}\n.content .numbers-animation .counter-desc {\n  font-size: 18px;\n}\n.content .services {\n  clear: both;\n  width: 100%;\n  float: left;\n  background-color: #141414;\n  min-height: 100vh;\n  position: relative;\n  background-image: url('/src/assets/images/laptop.jpg');\n  background-position: 0% 25%;\n}\n.content .services .services-content {\n  text-align: center;\n  color: #fff;\n  position: absolute;\n  top: 20%;\n  margin: 0 auto;\n  left: 0;\n  right: 0;\n}\n.content .services .services-content h3 {\n  font-size: 40px;\n  margin: 30px 0;\n}\n.content .services .list-things {\n  list-style: none;\n}\n.content .services .list-things .big-font {\n  font-size: 24px;\n}\n.content .services .list-things li {\n  font-size: 14px;\n  margin: 0 0 32px;\n  font-size: 18px;\n}\n@-webkit-keyframes clients_show {\n  0% {\n    -webkit-transform: translateZ(300px) translateY(200px) rotateX(-70deg);\n    opacity: 0.1;\n  }\n  100% {\n    -webkit-transform: translateZ(0px) translateY(0px) rotateX(0deg);\n    opacity: 1;\n  }\n}\n@keyframes clients_show {\n  0% {\n    transform: translateZ(300px) translateY(200px) rotateX(-70deg);\n    opacity: 0.1;\n  }\n  100% {\n    transform: translateZ(0px) translateY(0px) rotateX(0deg);\n    opacity: 1;\n  }\n}\n@media (max-width: 767px) {\n  .content .caption_container {\n    margin-top: 10px;\n  }\n  .content .caption_container .caption-title {\n    font-size: 30px;\n  }\n  .content .caption_container .caption-content {\n    font-size: 20px;\n    color: #a2665b;\n    line-height: 1em;\n    margin: 33px 0 0;\n  }\n  .content .caption_container .btn_container {\n    margin: 80px 0 0;\n  }\n  .content .caption_container .btn_container a {\n    display: block;\n    margin: 10px 0;\n  }\n  #portfolio .container {\n    padding: 0 !important;\n  }\n  #portfolio .container h3 {\n    width: auto !important;\n  }\n  #about .container {\n    padding: 0 !important;\n  }\n  #about .container .three_fifth {\n    width: auto !important;\n  }\n}\n", ""]);
 
 // exports
 
@@ -64612,7 +65039,7 @@ var Footer = function Footer() {
           { className: 'twitter' },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'a',
-            { target: '_blank', href: 'http://twitter.com/', rel: 'noopener noreferrer', 'aria-hidden': 'true', title: 'twitter', 'data-icon': '\uE8F1' },
+            { target: '_blank', href: 'http://twitter.com/namfame', rel: 'noopener noreferrer', 'aria-hidden': 'true', title: 'twitter', 'data-icon': '\uE8F1' },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'span',
               { className: 'hidden_link_text' },
@@ -64625,7 +65052,7 @@ var Footer = function Footer() {
           { className: 'facebook' },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'a',
-            { target: '_blank', href: 'http://facebook.com/', rel: 'noopener noreferrer', 'aria-hidden': 'true', title: 'Facebook', 'data-icon': '\uE8F3' },
+            { target: '_blank', href: 'http://facebook.com/namish.mudgal', rel: 'noopener noreferrer', 'aria-hidden': 'true', title: 'Facebook', 'data-icon': '\uE8F3' },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'span',
               { className: 'hidden_link_text' },
@@ -64638,7 +65065,7 @@ var Footer = function Footer() {
           { className: 'dribbble' },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'a',
-            { target: '_blank', href: 'http://dribbble.com/', rel: 'noopener noreferrer', 'aria-hidden': 'true', title: 'Dribbble', 'data-icon': '\uE8FE' },
+            { target: '_blank', href: 'http://dribbble.com/namishmudgal', rel: 'noopener noreferrer', 'aria-hidden': 'true', title: 'Dribbble', 'data-icon': '\uE8FE' },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'span',
               { className: 'hidden_link_text' },
@@ -64651,7 +65078,33 @@ var Footer = function Footer() {
   );
 };
 
-/* harmony default export */ __webpack_exports__["a"] = (Footer);
+var _default = Footer;
+var _default2 = _default;
+/* harmony default export */ __webpack_exports__["a"] = (_default2);
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(Footer, 'Footer', 'D:/New React Location/React/Project2/src/modules/Footer/components/Footer.jsx');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', 'D:/New React Location/React/Project2/src/modules/Footer/components/Footer.jsx');
+
+  __REACT_HOT_LOADER__.register(_default2, 'default', 'D:/New React Location/React/Project2/src/modules/Footer/components/Footer.jsx');
+}();
+
+;
+;
+
+var _temp2 = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
 
 /***/ }),
 /* 726 */
@@ -64778,12 +65231,37 @@ module.exports = __webpack_require__.p + "fea5dbd6c43d95923d27b8f40971d445.svg";
 
 
 
-/* harmony default export */ __webpack_exports__["a"] = (function () {
+var _default = function _default() {
   var sagaMiddleware = Object(__WEBPACK_IMPORTED_MODULE_1_redux_saga__["a" /* default */])();
   var store = Object(__WEBPACK_IMPORTED_MODULE_0_redux__["createStore"])(__WEBPACK_IMPORTED_MODULE_2__redux_reducer__["a" /* default */], Object(__WEBPACK_IMPORTED_MODULE_4_redux_devtools_extension__["composeWithDevTools"])(Object(__WEBPACK_IMPORTED_MODULE_0_redux__["applyMiddleware"])(sagaMiddleware)));
   sagaMiddleware.run(__WEBPACK_IMPORTED_MODULE_3__redux_saga__["a" /* getCartItems */]);
   return store;
-});
+};
+
+var _default2 = _default;
+/* harmony default export */ __webpack_exports__["a"] = (_default2);
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(_default, 'default', 'D:/New React Location/React/Project2/src/store/index.js');
+
+  __REACT_HOT_LOADER__.register(_default2, 'default', 'D:/New React Location/React/Project2/src/store/index.js');
+}();
+
+;
+;
+
+var _temp2 = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
 
 /***/ }),
 /* 734 */
@@ -65117,7 +65595,7 @@ var reduceItemsId = function reduceItemsId(arr, id) {
   return newArray;
 };
 
-/* harmony default export */ __webpack_exports__["a"] = (function () {
+var _default = function _default() {
   var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : initialState;
   var action = arguments[1];
 
@@ -65146,7 +65624,10 @@ var reduceItemsId = function reduceItemsId(arr, id) {
     default:
       return state;
   }
-});
+};
+
+var _default2 = _default;
+/* harmony default export */ __webpack_exports__["a"] = (_default2);
 
 var getItemsList = function getItemsList(state) {
   return state.results || [];
@@ -65164,6 +65645,38 @@ var getPrices = function getPrices(cartItems) {
   });
   return priceList;
 };
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(initialState, 'initialState', 'D:/New React Location/React/Project2/src/redux/reducer/index.js');
+
+  __REACT_HOT_LOADER__.register(reduceItemsId, 'reduceItemsId', 'D:/New React Location/React/Project2/src/redux/reducer/index.js');
+
+  __REACT_HOT_LOADER__.register(getItemsList, 'getItemsList', 'D:/New React Location/React/Project2/src/redux/reducer/index.js');
+
+  __REACT_HOT_LOADER__.register(getCartProducts, 'getCartProducts', 'D:/New React Location/React/Project2/src/redux/reducer/index.js');
+
+  __REACT_HOT_LOADER__.register(getPrices, 'getPrices', 'D:/New React Location/React/Project2/src/redux/reducer/index.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', 'D:/New React Location/React/Project2/src/redux/reducer/index.js');
+
+  __REACT_HOT_LOADER__.register(_default2, 'default', 'D:/New React Location/React/Project2/src/redux/reducer/index.js');
+}();
+
+;
+;
+
+var _temp2 = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
 
 /***/ }),
 /* 741 */
@@ -65646,6 +66159,26 @@ function getCartItems() {
     }
   }, _marked, this, [[0, 8]]);
 }
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(getCartItems, 'getCartItems', 'D:/New React Location/React/Project2/src/redux/saga/index.js');
+}();
+
+;
+;
+
+var _temp2 = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
 
 /***/ }),
 /* 758 */
@@ -66443,6 +66976,26 @@ function getItems() {
     return JSON.parse(resp.text).catalog;
   });
 }
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(getItems, 'getItems', 'D:/New React Location/React/Project2/src/redux/api/index.js');
+}();
+
+;
+;
+
+var _temp2 = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
 
 /***/ }),
 /* 762 */
@@ -68526,6 +69079,32 @@ var removeItem = function removeItem(itemId) {
     itemId: itemId
   };
 };
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(itemsLoadSuccess, 'itemsLoadSuccess', 'D:/New React Location/React/Project2/src/redux/actions/ItemsAction.js');
+
+  __REACT_HOT_LOADER__.register(itemsLoadFailed, 'itemsLoadFailed', 'D:/New React Location/React/Project2/src/redux/actions/ItemsAction.js');
+
+  __REACT_HOT_LOADER__.register(setItemAdded, 'setItemAdded', 'D:/New React Location/React/Project2/src/redux/actions/ItemsAction.js');
+
+  __REACT_HOT_LOADER__.register(removeItem, 'removeItem', 'D:/New React Location/React/Project2/src/redux/actions/ItemsAction.js');
+}();
+
+;
+;
+
+var _temp2 = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
 
 /***/ }),
 /* 769 */

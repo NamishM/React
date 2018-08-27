@@ -412,16 +412,19 @@
 		clear: both;
     width: 100%;
     float: left;
-		filter: grayscale(100%) brightness(70%);
     background-color: #141414;
     min-height: 100vh;
-    position: static;
+    position: relative;
 		background-image: url('/src/assets/images/laptop.jpg');
 		background-position: 0% 25%;
 		.services-content {
-			margin: 20px;
-			font-family: "Arial";
+			text-align: center;
 			color: #fff;
+			position: absolute;
+			top: 20%;
+			margin: 0 auto;
+			left: 0;
+			right: 0;
 			h3 {
 				  font-size: 40px;
 					margin: 30px 0;
@@ -433,7 +436,6 @@
 				font-size: 24px;
 			}
 			li {
-				width: 50%;
 				font-size: 14px;
     		margin: 0 0 32px;
 				font-size: 18px;
