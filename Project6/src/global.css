@@ -1,0 +1,91 @@
+html, body, body > section#root {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	overflow-x: hidden;
+	overflow-y: auto;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+position: relative;
+margin: 0 auto;
+padding: 0px 50px;
+clear: both;
+}
+
+
+/* module specific css starts */
+
+
+.loginForm {
+	width: 360px;
+	padding: 8% 0 0;
+	margin: auto;
+	background: #fff;
+	padding: 10px;
+	margin-top: 200px;
+}
+
+.loginForm input {
+	font-family: "Roboto", sans-serif;
+	outline: 0;
+	background: #f2f2f2;
+	width: 100%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+  }
+  .loginForm .loginBtn {
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	outline: 0;
+	background: #4CAF50;
+	width: 100%;
+	margin: 0;
+	border: 0;
+	padding: 15px;
+	color: #FFFFFF;
+	font-size: 14px;
+	-webkit-transition: all 0.3 ease;
+	transition: all 0.3 ease;
+	cursor: pointer;
+  }
+  .loginForm button:hover,.form button:active,.form button:focus {
+	background: #43A047;
+  }
+  .loginForm .message {
+	margin: 15px 0 0;
+	color: #b3b3b3;
+	font-size: 12px;
+  }
+
+  .hide{
+	  display: none;
+  }
+
+  .show {
+   display: block;   
+  }
+
+  .error {
+	color: red;
+  }
+
+  .payment {
+	  border: 2px solid #ccc;
+  }
+
+  .payment span {
+	font-family: cursive;
+  }
+
+/* module specific css ends */
