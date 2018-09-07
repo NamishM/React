@@ -2,6 +2,9 @@ import * as types from '../constants/ActionTypes';
 import { createSelector } from 'reselect';
 
 const initialState = {
+  auth: {
+    loginSuccess: null,
+  },
   errorMessage: '',
   results: [],
   addedItemIds: [],
@@ -18,6 +21,22 @@ const reduceItemsId = (arr, id) => {
 
 export default (state = initialState, action) => {
   switch (action.type) {
+    case types.LOGIN_SUCCESS:
+      return {
+        ...initialState,
+        auth: {
+          ...state.auth,
+          loginSuccess: true,
+        },
+      };
+    case types.LOGIN_FAILED:
+      return {
+        ...initialState,
+        auth: {
+          ...state.auth,
+          loginSuccess: false,
+        },
+      };
     case types.ITEMS_LOAD_SUCCESS:
       return {
         ...state,

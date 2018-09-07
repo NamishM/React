@@ -8,6 +8,7 @@ const webpackHotMiddleware = require('webpack-hot-middleware');
 let config = require('./webpack.config');
 const graphqlHTTP = require('express-graphql');
 const { buildSchema } = require('graphql');
+const login = require('./data/login.json');
 
 const port = 7000;
 
@@ -34,7 +35,10 @@ app.use('/graphql', graphqlHTTP({
 }));
 
 //default route
-app.get('/', (req, res) => res.render('index', { title : 'Namish Mudgal | Portfolio' }));
+app.get('/', (req, res) => res.render('index'));
+
+//API route
+app.get('/login', (req, res) => res.json(login));
 
 const listener = app.listen(port, () =>
   console.log(`Waiting for webpack to build...App will run on ${listener.address().address}${listener.address().port}`));

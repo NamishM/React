@@ -3,23 +3,19 @@ const webpack = require('webpack');
 const WebpackBuildNotifier = require('webpack-build-notifier');
 const isProduction = process.env.NODE_ENV === 'production';
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     devtool : 'source-map',
     entry: {
-        main: ['babel-polyfill', './src/main.jsx']        
+        main: ['react-hot-loader/patch', 'babel-polyfill', './src/main.jsx']        
     },
     output: {
-        path: path.join(__dirname, 'src', 'bundle'),
+        path: path.join(__dirname, 'src', 'dist'),
         filename: '[name].bundle.js'
     },
     module: {
         rules: [
-            {
-                test: /.*/,
-                include: [path.resolve(__dirname, 'src/modules/Pages')],
-                loader: 'bundle-loader?lazy&name=pages'
-            },
             { 
                 test: /\.css$/,
                 use: [
@@ -81,6 +77,10 @@ module.exports = {
     },
     plugins: [
         new WebpackBuildNotifier(),
-        new webpack.HotModuleReplacementPlugin()
+        new webpack.HotModuleReplacementPlugin(),
+        new HtmlWebpackPlugin({
+          title: 'My Test App',
+          template: 'index.hbs'
+        })
     ]
 };

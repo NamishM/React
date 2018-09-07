@@ -1,17 +1,18 @@
 import { connect } from 'react-redux';
 import {
   checkCredentials,
+  LoginFaied,
 } from 'src/redux/actions/ItemsAction';
-import MainViewUI from '../components/LoginUI';
+import LoginUI from '../components/LoginUI';
 
-const mapStateToProps = (state) => ({
+const mapStateToProps = state => ({
   loginSuccess: state.auth.loginSuccess,
 });
 
 const mapDispatchToProps = dispatch => ({
-  onCheckCredentials: ({
-    credentials,
-  }) => dispatch(checkCredentials(credentials)),
+  onCheckCredentials: (username, password) =>
+    dispatch(checkCredentials(username, password)),
+  setLoginfailed: () => dispatch(LoginFaied()),
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(LoginUI);

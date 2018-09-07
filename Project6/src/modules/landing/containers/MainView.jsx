@@ -1,4 +1,3 @@
-import React from 'react';
 import { connect } from 'react-redux';
 import {
   checkCredentials,
@@ -6,7 +5,7 @@ import {
   from 'src/redux/actions/ItemsAction';
 import MainViewUI from '../components/MainViewUI';
 
-const mapStateToProps = (state) => ({
+const mapStateToProps = state => ({
   loginSuccess: state.auth.loginSuccess,
 });
 

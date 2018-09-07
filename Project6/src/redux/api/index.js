@@ -6,3 +6,11 @@ export function getItems() {
     .set('Accept', 'application/json')
     .then(resp => JSON.parse(resp.text).catalog);
 }
+
+
+export function getLoginDetails() {
+  return superagent
+    .get('/login')
+    .set('Accept', 'application/json')
+    .then(resp => JSON.parse(resp.text).login);
+}

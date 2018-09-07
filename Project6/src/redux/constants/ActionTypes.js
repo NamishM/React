@@ -2,3 +2,7 @@ export const ITEMS_LOAD_SUCCESS = 'ITEMS_LOAD_SUCCESS';
 export const ITEMS_LOAD_FAILED = 'ITEMS_LOAD_FAILED';
 export const SET_ITEM_ADDED = 'SET_ITEM_ADDED';
 export const ITEM_REMOVED = 'ITEM_REMOVED';
+
+export const GET_USER_API = 'GET_USER_API';
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+export const LOGIN_FAILED = 'LOGIN_FAILED';

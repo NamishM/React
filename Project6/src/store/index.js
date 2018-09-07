@@ -1,7 +1,7 @@
 import { createStore, applyMiddleware } from 'redux';
 import createSagaMiddleware from 'redux-saga';
 import reducer from '../redux/reducer';
-import { getCartItems } from '../redux/saga';
+import { rootSaga } from '../redux/saga';
 import { composeWithDevTools } from 'redux-devtools-extension';
 
 export default () => {
@@ -12,6 +12,6 @@ export default () => {
       applyMiddleware(sagaMiddleware),
     ),
   );
-  sagaMiddleware.run(getCartItems);
+  sagaMiddleware.run(rootSaga);
   return store;
 };
