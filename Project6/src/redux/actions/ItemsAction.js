@@ -24,12 +24,18 @@ export const itemsLoadFailed = message => ({
   message,
 });
 
-export const setItemAdded = itemId => ({
-  type: types.SET_ITEM_ADDED,
-  itemId,
+export const getPlanetsData = url => ({
+  type: types.GET_PLANETS,
+  url,
 });
 
-export const removeItem = itemId => ({
-  type: types.ITEM_REMOVED,
-  itemId,
+export const planetsLoadSuccess = options => ({
+  type: types.PLANETS_LOAD_SUCCESS,
+  options,
 });
+
+export const planetsLoadFailed = message => ({
+  type: types.PLANETS_LOAD_FAILED,
+  message,
+});
+

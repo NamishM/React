@@ -1,13 +1,13 @@
 webpackJsonp([1],{
 
-/***/ 696:
+/***/ 714:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_redux__ = __webpack_require__(263);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_src_redux_actions_ItemsAction__ = __webpack_require__(264);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_MainViewUI__ = __webpack_require__(743);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_redux__ = __webpack_require__(273);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_src_redux_actions_ItemsAction__ = __webpack_require__(274);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_LoginUI__ = __webpack_require__(719);
 
 
 
@@ -20,14 +20,16 @@ var mapStateToProps = function mapStateToProps(state) {
 
 var mapDispatchToProps = function mapDispatchToProps(dispatch) {
   return {
-    onCheckCredentials: function onCheckCredentials(_ref) {
-      var credentials = _ref.credentials;
-      return dispatch(Object(__WEBPACK_IMPORTED_MODULE_1_src_redux_actions_ItemsAction__["c" /* checkCredentials */])(credentials));
+    onCheckCredentials: function onCheckCredentials(username, password) {
+      return dispatch(Object(__WEBPACK_IMPORTED_MODULE_1_src_redux_actions_ItemsAction__["c" /* checkCredentials */])(username, password));
+    },
+    setLoginfailed: function setLoginfailed() {
+      return dispatch(Object(__WEBPACK_IMPORTED_MODULE_1_src_redux_actions_ItemsAction__["a" /* LoginFaied */])());
     }
   };
 };
 
-var _default = Object(__WEBPACK_IMPORTED_MODULE_0_react_redux__["b" /* connect */])(mapStateToProps, mapDispatchToProps)(__WEBPACK_IMPORTED_MODULE_2__components_MainViewUI__["a" /* default */]);
+var _default = Object(__WEBPACK_IMPORTED_MODULE_0_react_redux__["b" /* connect */])(mapStateToProps, mapDispatchToProps)(__WEBPACK_IMPORTED_MODULE_2__components_LoginUI__["a" /* default */]);
 
 var _default2 = _default;
 /* harmony default export */ __webpack_exports__["default"] = (_default2);
@@ -38,13 +40,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', 'D:/New React Location/React/Project6/src/modules/landing/containers/MainView.jsx');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/ruchikasharma/Documents/GitHub/React/Project6/src/modules/login/containers/Login.jsx');
 
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', 'D:/New React Location/React/Project6/src/modules/landing/containers/MainView.jsx');
+  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/Users/ruchikasharma/Documents/GitHub/React/Project6/src/modules/login/containers/Login.jsx');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', 'D:/New React Location/React/Project6/src/modules/landing/containers/MainView.jsx');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/ruchikasharma/Documents/GitHub/React/Project6/src/modules/login/containers/Login.jsx');
 
-  __REACT_HOT_LOADER__.register(_default2, 'default', 'D:/New React Location/React/Project6/src/modules/landing/containers/MainView.jsx');
+  __REACT_HOT_LOADER__.register(_default2, 'default', '/Users/ruchikasharma/Documents/GitHub/React/Project6/src/modules/login/containers/Login.jsx');
 }();
 
 ;
@@ -60,23 +62,63 @@ var _temp2 = function () {
 
 /***/ }),
 
-/***/ 743:
+/***/ 719:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
+var _this = this;
 
 
-var MainViewUI = function MainViewUI() {
+
+
+var Login = function Login(_ref) {
+  var onCheckCredentials = _ref.onCheckCredentials,
+      loginSuccess = _ref.loginSuccess,
+      setLoginfailed = _ref.setLoginfailed;
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
     'div',
-    null,
-    'Hi, this is test app.'
+    { className: 'content ' + (loginSuccess ? 'loading' : null) },
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'form',
+      { className: 'loginForm' },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', placeholder: 'username', ref: function ref(input) {
+          _this.username = input;
+        } }),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'password', placeholder: 'password', ref: function ref(input) {
+          _this.password = input;
+        } }),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', {
+        type: 'button',
+        className: 'loginBtn',
+        onClick: function onClick() {
+          if (_this.username.value !== '' && _this.password.value !== '') {
+            onCheckCredentials(_this.username.value, _this.password.value);
+          } else {
+            setLoginfailed();
+          }
+        },
+        value: 'login'
+      }),
+      !loginSuccess && loginSuccess !== null ? __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'span',
+        { className: 'message' },
+        'Please fill valid Username/Password'
+      ) : null
+    )
   );
 };
 
-var _default = MainViewUI;
+Login.propTypes = {
+  loginSuccess: __WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.bool,
+  onCheckCredentials: __WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.func.isRequired,
+  setLoginfailed: __WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.func.isRequired
+};
+
+var _default = Login;
 var _default2 = _default;
 /* harmony default export */ __webpack_exports__["a"] = (_default2);
 ;
@@ -86,11 +128,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(MainViewUI, 'MainViewUI', 'D:/New React Location/React/Project6/src/modules/landing/components/MainViewUI.jsx');
+  __REACT_HOT_LOADER__.register(Login, 'Login', '/Users/ruchikasharma/Documents/GitHub/React/Project6/src/modules/login/components/LoginUI.jsx');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', 'D:/New React Location/React/Project6/src/modules/landing/components/MainViewUI.jsx');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/ruchikasharma/Documents/GitHub/React/Project6/src/modules/login/components/LoginUI.jsx');
 
-  __REACT_HOT_LOADER__.register(_default2, 'default', 'D:/New React Location/React/Project6/src/modules/landing/components/MainViewUI.jsx');
+  __REACT_HOT_LOADER__.register(_default2, 'default', '/Users/ruchikasharma/Documents/GitHub/React/Project6/src/modules/login/components/LoginUI.jsx');
 }();
 
 ;

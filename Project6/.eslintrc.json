@@ -28,6 +28,8 @@
         "import/no-webpack-loader-syntax": 0,
         "no-param-reassign": 0,
         "no-console": 0,
+        "react/no-array-index-key": 0,
+        "react/jsx-wrap-multilines" : 0,
         "import/first": ["error", {"absolute-first": false}],
         "import/no-extraneous-dependencies": [
             "error",

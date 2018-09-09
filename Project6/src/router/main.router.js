@@ -35,8 +35,8 @@ const App = ({ store }) => (
     <ConnectedRouter history={browserHistory} >
       <Switch>
         <Route path="/error" component={ErrorPage} />
-        <Route path="/" component={Login} />
         <Route path="/main" component={MainView} />
+        <Route path="/" component={Login} />
         <Route path="*" render={() => <Redirect to="/notfound" />} />
       </Switch>
     </ConnectedRouter>

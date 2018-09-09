@@ -8,22 +8,14 @@ const initialState = {
   errorMessage: '',
   results: [],
   addedItemIds: [],
-};
-
-const reduceItemsId = (arr, id) => {
-  const newArray = arr.slice();
-  const index = newArray.indexOf(id);
-  if (index >= 0) {
-    newArray.splice(index, 1);
-  }
-  return newArray;
+  planetsItem: null,
 };
 
 export default (state = initialState, action) => {
   switch (action.type) {
     case types.LOGIN_SUCCESS:
       return {
-        ...initialState,
+        ...state,
         auth: {
           ...state.auth,
           loginSuccess: true,
@@ -31,7 +23,7 @@ export default (state = initialState, action) => {
       };
     case types.LOGIN_FAILED:
       return {
-        ...initialState,
+        ...state,
         auth: {
           ...state.auth,
           loginSuccess: false,
@@ -44,24 +36,18 @@ export default (state = initialState, action) => {
       };
     case types.ITEMS_LOAD_FAILED:
       return {
-        ...initialState,
+        ...state,
         errorMessage: action.errorMessage,
       };
-    case types.SET_ITEM_ADDED:
-    { const { itemId } = action;
+    case types.PLANETS_LOAD_SUCCESS:
       return {
         ...state,
-        addedItemIds: [
-          ...state.addedItemIds,
-          itemId,
-        ],
+        planetsItem: action.options,
       };
-    }
-    case types.ITEM_REMOVED:
+    case types.PLANETS_LOAD_FAILED:
       return {
         ...state,
-        removedItemId: action.itemId,
-        addedItemIds: reduceItemsId(state.addedItemIds, action.itemId),
+        errorMessage: action.errorMessage,
       };
     default:
       return state;

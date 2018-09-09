@@ -1,12 +1,14 @@
 {
-  "login": [
-    {
-      "name": "Namish",
-      "password": "mudgal"
-    },
-    {
-      "name": "Xebia",
-      "password": "tech"
-    }
-  ]
+  "data": {
+    "login": [
+      {
+        "name": "Namish",
+        "password": "mudgal"
+      },
+      {
+        "name": "Xebia",
+        "password": "tech"
+      }
+    ]
+  }
 }
