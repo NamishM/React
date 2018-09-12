@@ -1,0 +1,58 @@
+html, body, #root, .App {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    font-family: Arial;
+}
+.calc_container {
+    width: 220px;
+    top: 50%;
+    left: 50%;
+    margin: -110px 0 0 -110px;
+    position: absolute;
+    background: #454545;
+    border: 1px solid #2B2B2B;
+    border-radius: 7px;
+}
+
+.output {
+    width: 220px;
+    height: 80px;
+    color: #fff;
+    font-size: 45px;
+    position: relative;
+    overflow: hidden;
+}
+
+.output_inside {
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+}
+
+button {
+    background: #E0E0E0;
+    border: 0.5px solid #8E8E8E;
+    height: 50px;
+    width: 55px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.op_btn {
+    background: #FF8C00;
+    color: #fff;    
+}
+
+.zero {
+    width: 110px;
+    border-bottom-left-radius: 7px;
+    text-align: left;
+    padding-left: 21px;
+}
+
+.row:last-child button:last-child {
+    border-bottom-right-radius: 7px;
+}
