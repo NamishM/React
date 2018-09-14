@@ -1,0 +1,77 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "plugins": ["babel", "redux-saga"],
+    "extends": ["airbnb", "plugin:redux-saga/recommended"],
+    "rules": {
+        "linebreak-style": ["error", "windows"],
+        "no-underscore-dangle": 0,
+        "global-require": "off",
+        "comma-dangle": ["error", {
+            "arrays": "always-multiline",
+            "objects": "always-multiline",
+            "imports": "always-multiline",
+            "exports": "always-multiline",
+            "functions": "always-multiline"
+        }],
+        "redux-saga/no-unhandled-errors": 0,
+        "jsx-a11y/no-autofocus": 0,
+        "jsx-a11y/no-static-element-interactions": 0,
+        "jsx-a11y/label-has-for": 0,
+        "react/no-unused-prop-types": 0,
+        "react/require-extension": 0,
+        "react/require-default-props": 0,
+        "import/prefer-default-export": 0,
+        "import/no-webpack-loader-syntax": 0,
+        "no-param-reassign": 0,
+        "no-console": 0,
+        "react/no-array-index-key": 0,
+        "react/jsx-wrap-multilines" : 0,
+        "import/first": ["error", {"absolute-first": false}],
+        "import/no-extraneous-dependencies": [
+            "error",
+            {
+                "devDependencies": ["**/*.spec.js"],
+                "peerDependencies": false,
+                "optionalDependencies": false
+            }
+        ],
+        "no-restricted-syntax": [
+            "error",
+            {
+                "selector": "ForInStatement",
+                "message": "for..in loops iterate over the entire prototype chain, which is virtually never what you want. Use Object.{keys,values,entries}, and iterate over the resulting array."
+            },
+            // {
+            //     "selector": "ForOfStatement",
+            //     "message": "iterators/generators require regenerator-runtime, which is too heavyweight for this guide to allow them. Separately, loops should be avoided in favor of array iterations."
+            // },
+            {
+                "selector": "LabeledStatement",
+                "message": "Labels are a form of GOTO; using them makes code confusing and hard to maintain and understand."
+            },
+            {
+                "selector": "WithStatement",
+                "message": "`with` is disallowed in strict mode because it makes code impossible to predict and optimize."
+            }
+        ]
+    },
+    "settings": {
+        "import/resolver":{
+            "webpack": {
+                "config": "webpack.config.js"
+            }
+        }
+    },
+    "overrides": [ // TODO: Does nothing until eslint v4
+        {
+            "files": ["**/*.spec.js"],
+            "rules": {
+                "redux-saga/yield-effects": 0
+            }
+        }
+    ]
+}

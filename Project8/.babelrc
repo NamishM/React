@@ -1,0 +1,40 @@
+{
+  "plugins": ["transform-runtime", "transform-object-rest-spread", "transform-class-properties", "syntax-dynamic-import", "react-hot-loader/babel"],
+  "presets": [
+    ["env", {
+      "targets": {
+        "browsers": [
+          "last 3 Chrome versions",
+          "last 3 Firefox versions",
+          "last 3 Edge versions",
+          "last 2 Safari versions",
+          "last 2 iOS versions",
+          "ie >= 11"
+        ]
+      },
+      "useBuiltIns": true,
+      "debug": false,
+      "modules": false
+    }],
+    "react"
+  ],
+  "env": {
+    "development": {
+      "plugins": ["react-hot-loader/babel"]
+    },
+    "test": {
+      "presets": [
+        ["env", {
+          "targets": {
+            "node": "current"
+          },
+          "useBuiltIns": true,
+          "debug": false,
+          "modules": "commonjs"
+        }],
+        "react"
+      ],
+      "plugins": ["transform-class-properties", "transform-es2015-modules-commonjs", "syntax-dynamic-import"]
+    }
+  }
+}
