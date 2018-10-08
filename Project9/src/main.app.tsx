@@ -4,7 +4,7 @@ import * as React from "react";
 import { render } from 'react-dom';
 import 'babel-polyfill';
 import { AppContainer } from 'react-hot-loader';
-import LandingUI from './modules/landing/components/LandingUI';
+import Router from './router/main.router';
 let outdatedBrowser = require("./outdatedbrowser.js");
 
 const renderComponent = Component => render(
@@ -14,10 +14,10 @@ const renderComponent = Component => render(
   document.getElementById('main'),
 );
 
-renderComponent(LandingUI);
+renderComponent(Router);
 
 if (module.hot) {
-  module.hot.accept('./modules/landing/components/LandingUI', () => { renderComponent(LandingUI); });
+  module.hot.accept('./router/main.router', () => { renderComponent(Router); });
 }
 
 outdatedBrowser({
