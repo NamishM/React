@@ -1,5 +1,6 @@
 html, body, body > #root, .content {
 	height: 100%;
+	overflow: hidden;
 }
 
 body {
@@ -102,12 +103,11 @@ a {
 		border-bottom: 1px solid #ccc; 
 		text-align: center;
 		background: #000;
-		color: #f9f907;
-		padding: 10px;
+		padding: 10px 0;
 	}
 
-	.Header h1 {
-		margin: 0;
+	.Header > div{
+		color: #f9f907 !important;
 	}
 
 	.Footer {
@@ -119,20 +119,23 @@ a {
 		font-size: 10px;
 		background:#5f0969;
 		color: #fff;
+		padding: 5px 0;
 	}
 
 	.mainContainer {
-		height: 100%;
+		position: relative;
 		text-align: center;
+		height: 100%;
 	}
 
 	.mainView {
 		height: 100%;
 	}
 	.itemContainer {
-		height: 100%;
-		padding: 15px;
+		height: calc(100% - 48px);
 		background-image: linear-gradient(to right top, #051937, #2f285f, #692f7f, #ac298f, #f00f8d);
+		overflow: auto;
+		padding: 10px 0;
 	}
 
 	.ItemTitle {
@@ -148,6 +151,13 @@ a {
 	}
 	li {
 		padding: 5px 0;
+	}
+	li > button {
+		width: 200px;
+	}
+	.comments {
+		color: #fff;
+		font-style: italic;
 	}
 
 /* module specific css ends */

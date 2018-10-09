@@ -29,7 +29,7 @@ export default class ItemViewUI extends React.Component<ItemViewUIProps, any> {
                   {item.name}
                 </Button>
               </li>,
-            ) : <li>Please wait or see console for API error...</li>
+            ) : <li><span className="comments">Please wait or see console for API error...</span></li>
           }
         </ul>
         <hr />
@@ -42,7 +42,8 @@ export default class ItemViewUI extends React.Component<ItemViewUIProps, any> {
                 <li>Planet Population: {this.props.planetsItem.population}</li>
                 <li>Planet Terrain: {this.props.planetsItem.terrain}</li>
               </ul>
-            </div>: 'No Valid Data present, Click on ablove options to see data and be patient while data loads!'
+            </div>:
+              <span className="comments">No Valid Data present, Click on ablove options to see data and be patient while data loads!</span>
         }
       </div>
     );
