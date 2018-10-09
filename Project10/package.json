@@ -19,13 +19,16 @@
     "redux-saga": "^0.16.0",
     "redux-thunk": "^2.1.0",
     "reselect": "^4.0.0",
+    "semantic-ui-less": "^2.4.0",
+    "semantic-ui-react": "^0.82.5",
     "superagent": "^4.0.0-beta.5"
   },
   "scripts": {
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",
-    "eject": "react-scripts-ts eject"
+    "eject": "react-scripts-ts eject",
+    "postinstall": "ln -s ../../src/semantic-ui-theme.config node_modules/semantic-ui-less/theme.config"
   },
   "devDependencies": {
     "@types/jest": "^23.3.3",
@@ -36,6 +39,8 @@
     "@types/react-router": "^4.0.24",
     "@types/react-router-redux": "^5.0.13",
     "@types/redux-thunk": "^2.1.0",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
     "typescript": "^3.1.1"
   }
 }

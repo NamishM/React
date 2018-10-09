@@ -2,20 +2,21 @@ import * as React from 'react';
 import Header from './Header';
 import Footer from './Footer';
 import ItemViewUI from './ItemViewUI';
+// import { Responsive } from 'semantic-ui-react';
 
-interface IMainViewUIProps {
+interface MainViewUIProps {
     loginSuccess: boolean;
     items: any;
-    getPlanetsData(item: any): void;
     planetsItem: any;
+    getPlanetsData(item: any): void;
 }
 
-export default class MainViewUI extends React.Component<IMainViewUIProps, any> {
-  constructor(props: IMainViewUIProps) {
+export default class MainViewUI extends React.Component<MainViewUIProps, any> {
+  constructor(props: MainViewUIProps) {
       super(props);
   }
 
-  public render() {
+  render() {
     return (
       <div className="mainContainer">
         {

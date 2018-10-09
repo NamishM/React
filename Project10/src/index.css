@@ -1,4 +1,4 @@
-html, body, body > section#root, .content {
+html, body, body > #root, .content {
 	height: 100%;
 }
 
@@ -133,6 +133,12 @@ a {
 		height: 100%;
 		padding: 15px;
 		background-image: linear-gradient(to right top, #051937, #2f285f, #692f7f, #ac298f, #f00f8d);
+	}
+
+	.ItemTitle {
+		font-weight: bold;
+    	font-size: 20px;
+    	color: #fff;
 	}
 
 	ul {

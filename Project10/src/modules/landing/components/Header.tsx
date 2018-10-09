@@ -1,13 +1,14 @@
 import * as React from 'react';
+import { Header } from 'semantic-ui-react'
 
-interface Props extends React.Props<Header> {
+interface Props extends React.Props<HeaderUI> {
 }
 
-export default class Header extends React.Component<Props, {}> {
+export default class HeaderUI extends React.Component<Props, {}> {
   render() {
     return (
       <div className="Header">
-        <h1>The Star Wars API</h1>
+        <Header size='large'>The Star Wars API</Header>
       </div>
     );
   }

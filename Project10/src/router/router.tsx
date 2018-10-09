@@ -1,13 +1,13 @@
 import * as React from 'react';
 import { Route, Redirect, Switch } from 'react-router';
-import browserHistory from './router/browserHistory';
+import browserHistory from './browserHistory';
 import { ConnectedRouter } from 'react-router-redux';
 import { Provider } from 'react-redux';
-import initStore from './store';
-import MainView from './modules/landing/containers/MainView';
-import Login from './modules/login/containers/Login';
-import ErrorPage from './modules/error/components/ErrorPage';
-import NotFound from './modules/notfound/components/NotFound';
+import initStore from '../store';
+import MainView from '../modules/landing/containers/MainView';
+import Login from '../modules/login/containers/Login';
+import ErrorPage from '../modules/error/components/ErrorPage';
+import NotFound from '../modules/notfound/components/NotFound';
 
 const store = initStore();
 

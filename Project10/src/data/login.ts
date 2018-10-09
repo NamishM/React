@@ -1,4 +1,4 @@
-{
+export const loginData = `{
   "data": {
     "login": [
       {
@@ -11,4 +11,4 @@
       }
     ]
   }
-}
+}`;

@@ -16,7 +16,9 @@
     "jsx-boolean-value": false,
     "ordered-imports": false,
     "curly": [true, "ignore-same-line"],
-    "no-console": false
+    "no-console": false,
+    "member-access": [true, "no-public"],
+    "jsx-no-lambda": false
   },
   "defaultSeverity": "warning"
 }

@@ -1,5 +1,5 @@
 import { getItems, getLoginDetails, getPlanetsItem } from '../api';
-import { call, put, takeEvery } from 'redux-saga/effects';
+import { call, put, takeEvery, all } from 'redux-saga/effects';
 import * as actions from '../actions/ItemsAction';
 import * as types from '../constants/ActionTypes';
 import browserHistory from 'src/router/browserHistory';
@@ -55,9 +55,9 @@ export function* watchForPlanetRequest() {
 }
 
 export function* rootSaga() {
-  yield [
+  yield all([
     watchForLoginRequest(),
     watchForLoginSuccess(),
     watchForPlanetRequest(),
-  ];
+  ]);
 }

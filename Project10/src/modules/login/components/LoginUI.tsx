@@ -1,14 +1,14 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
 
-interface ILoginUIProps {
+interface LoginUIProps {
     loginSuccess: boolean;
     onCheckCredentials(username: any, password: any): void;
     setLoginfailed(): void;
 }
 
-export default class Login extends React.Component<ILoginUIProps, any> {
-  constructor(props: ILoginUIProps) {
+export default class Login extends React.Component<LoginUIProps, any> {
+  constructor(props: LoginUIProps) {
       super(props);
       this.state = { username: '', password: '' };      
   }
@@ -21,7 +21,7 @@ export default class Login extends React.Component<ILoginUIProps, any> {
     this.setState({ password: event.target.value });
   };
 
-  public render() {
+  render() {
     return (
       <div className={`content ${this.props.loginSuccess ? 'loading' : null}`}>
         <form className="loginForm">
